@@ -20,12 +20,12 @@
 		11408CB016EB9A500062BE8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		11408CB216EB9A500062BE8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		11408CB416EB9A500062BE8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		11408CB816EB9A500062BE8E /* Lottery-Info.plist */ = {isa = PBXFileReference; path = "Lottery-Info.plist"; sourceTree = "<group>"; };
+		11408CB816EB9A500062BE8E /* Lottery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lottery-Info.plist"; sourceTree = "<group>"; };
 		11408CBA16EB9A500062BE8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		11408CBC16EB9A500062BE8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		11408CBE16EB9A500062BE8E /* Lottery-Prefix.pch */ = {isa = PBXFileReference; path = "Lottery-Prefix.pch"; sourceTree = "<group>"; };
-		11408CBF16EB9A500062BE8E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		11408CC016EB9A500062BE8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11408CBE16EB9A500062BE8E /* Lottery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lottery-Prefix.pch"; sourceTree = "<group>"; };
+		11408CBF16EB9A500062BE8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Lottery/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		11408CC016EB9A500062BE8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Lottery/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +72,9 @@
 		11408CB616EB9A500062BE8E /* Lottery */ = {
 			isa = PBXGroup;
 			children = (
-				11408CBF16EB9A500062BE8E /* AppDelegate.h */,
-				11408CC016EB9A500062BE8E /* AppDelegate.m */,
+				11408CD316EB9BC50062BE8E /* Classes */,
+				11408CD716EB9C490062BE8E /* Externals */,
+				11408CD816EB9C490062BE8E /* Resources */,
 				11408CB716EB9A500062BE8E /* Supporting Files */,
 			);
 			path = Lottery;
@@ -88,6 +89,46 @@
 				11408CBE16EB9A500062BE8E /* Lottery-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11408CD316EB9BC50062BE8E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				11408CD516EB9BD00062BE8E /* AppDelegate */,
+				11408CD616EB9BF70062BE8E /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		11408CD516EB9BD00062BE8E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				11408CBF16EB9A500062BE8E /* AppDelegate.h */,
+				11408CC016EB9A500062BE8E /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			path = Lottery/AppDelegate;
+			sourceTree = SOURCE_ROOT;
+		};
+		11408CD616EB9BF70062BE8E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		11408CD716EB9C490062BE8E /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		11408CD816EB9C490062BE8E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +295,7 @@
 				11408CC616EB9A500062BE8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
