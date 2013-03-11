@@ -7,15 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		111037A416ECFBDA00BB34FB /* BookBalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 111037A216ECFBDA00BB34FB /* BookBalanceViewController.m */; };
+		111037A516ECFBDA00BB34FB /* BookBalanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 111037A316ECFBDA00BB34FB /* BookBalanceViewController.xib */; };
+		111037A916ECFCE900BB34FB /* MyselfInfomationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 111037A716ECFCE900BB34FB /* MyselfInfomationViewController.m */; };
+		111037AA16ECFCE900BB34FB /* MyselfInfomationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 111037A816ECFCE900BB34FB /* MyselfInfomationViewController.xib */; };
+		111037AD16ED045D00BB34FB /* ExpectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 111037AC16ED045D00BB34FB /* ExpectTableViewCell.m */; };
+		111037B516ED0CFA00BB34FB /* NIDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 111037B416ED0CFA00BB34FB /* NIDropDown.m */; };
+		111037BA16ED1A2A00BB34FB /* MyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 111037B816ED1A2A00BB34FB /* MyLotteryViewController.m */; };
+		111037BB16ED1A2A00BB34FB /* MyLotteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 111037B916ED1A2A00BB34FB /* MyLotteryViewController.xib */; };
+		111037BE16ED387800BB34FB /* MyLotteryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 111037BD16ED387800BB34FB /* MyLotteryCell.m */; };
+		1117D10316EBDA9500F16627 /* UserMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1117D0FF16EBDA9500F16627 /* UserMainViewController.m */; };
+		1117D10416EBDA9500F16627 /* UserMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1117D10016EBDA9500F16627 /* UserMainViewController.xib */; };
+		1117D10D16EBDAFD00F16627 /* ExpectForecastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1117D10B16EBDAFD00F16627 /* ExpectForecastViewController.m */; };
+		1117D10E16EBDAFD00F16627 /* ExpectForecastViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1117D10C16EBDAFD00F16627 /* ExpectForecastViewController.xib */; };
+		1117D11216EBDB0B00F16627 /* LotteryRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1117D11016EBDB0B00F16627 /* LotteryRoomViewController.m */; };
+		1117D11316EBDB0B00F16627 /* LotteryRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1117D11116EBDB0B00F16627 /* LotteryRoomViewController.xib */; };
+		1117D11716EBDB2D00F16627 /* StationMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1117D11516EBDB2D00F16627 /* StationMainViewController.m */; };
+		1117D11816EBDB2D00F16627 /* StationMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1117D11616EBDB2D00F16627 /* StationMainViewController.xib */; };
+		1117D11C16EBDB5500F16627 /* PersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1117D11A16EBDB5500F16627 /* PersonalCenterViewController.m */; };
+		1117D11D16EBDB5500F16627 /* PersonalCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1117D11B16EBDB5500F16627 /* PersonalCenterViewController.xib */; };
+		1117D14116EBE5EA00F16627 /* lottery_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1117D13C16EBE5EA00F16627 /* lottery_icon.png */; };
+		1117D14516EBE7A600F16627 /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = 1117D14416EBE7A600F16627 /* light.png */; };
 		11408CB116EB9A500062BE8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11408CB016EB9A500062BE8E /* UIKit.framework */; };
 		11408CB316EB9A500062BE8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11408CB216EB9A500062BE8E /* Foundation.framework */; };
 		11408CB516EB9A500062BE8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11408CB416EB9A500062BE8E /* CoreGraphics.framework */; };
 		11408CBB16EB9A500062BE8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11408CB916EB9A500062BE8E /* InfoPlist.strings */; };
 		11408CBD16EB9A500062BE8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11408CBC16EB9A500062BE8E /* main.m */; };
 		11408CC116EB9A500062BE8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11408CC016EB9A500062BE8E /* AppDelegate.m */; };
+		11408CDD16EBA2130062BE8E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11408CDB16EBA2130062BE8E /* LoginViewController.m */; };
+		11408CDE16EBA2130062BE8E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11408CDC16EBA2130062BE8E /* LoginViewController.xib */; };
+		11C87C6016EBEAB70077D0BA /* BuyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C87C5E16EBEAB70077D0BA /* BuyLotteryViewController.m */; };
+		11C87C6116EBEAB70077D0BA /* BuyLotteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11C87C5F16EBEAB70077D0BA /* BuyLotteryViewController.xib */; };
+		11C87C6A16EC048B0077D0BA /* LetteryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C87C6916EC048B0077D0BA /* LetteryTableViewCell.m */; };
+		11EDD4D716ED562B0008B703 /* Lottery.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EDD4D616ED562B0008B703 /* Lottery.m */; };
+		11EDD4DB16ED61CB0008B703 /* MyLotteryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EDD4D916ED61CB0008B703 /* MyLotteryDetailViewController.m */; };
+		11EDD4DC16ED61CB0008B703 /* MyLotteryDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11EDD4DA16ED61CB0008B703 /* MyLotteryDetailViewController.xib */; };
+		11F95BF716EC1825009485B2 /* LetteryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F95BF516EC1824009485B2 /* LetteryDetailViewController.m */; };
+		11F95BF816EC1825009485B2 /* LetteryDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F95BF616EC1825009485B2 /* LetteryDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		111037A116ECFBDA00BB34FB /* BookBalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookBalanceViewController.h; sourceTree = "<group>"; };
+		111037A216ECFBDA00BB34FB /* BookBalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookBalanceViewController.m; sourceTree = "<group>"; };
+		111037A316ECFBDA00BB34FB /* BookBalanceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookBalanceViewController.xib; sourceTree = "<group>"; };
+		111037A616ECFCE900BB34FB /* MyselfInfomationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyselfInfomationViewController.h; sourceTree = "<group>"; };
+		111037A716ECFCE900BB34FB /* MyselfInfomationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyselfInfomationViewController.m; sourceTree = "<group>"; };
+		111037A816ECFCE900BB34FB /* MyselfInfomationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyselfInfomationViewController.xib; sourceTree = "<group>"; };
+		111037AB16ED045D00BB34FB /* ExpectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpectTableViewCell.h; sourceTree = "<group>"; };
+		111037AC16ED045D00BB34FB /* ExpectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpectTableViewCell.m; sourceTree = "<group>"; };
+		111037B316ED0CFA00BB34FB /* NIDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIDropDown.h; sourceTree = "<group>"; };
+		111037B416ED0CFA00BB34FB /* NIDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIDropDown.m; sourceTree = "<group>"; };
+		111037B716ED1A2A00BB34FB /* MyLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLotteryViewController.h; sourceTree = "<group>"; };
+		111037B816ED1A2A00BB34FB /* MyLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLotteryViewController.m; sourceTree = "<group>"; };
+		111037B916ED1A2A00BB34FB /* MyLotteryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyLotteryViewController.xib; sourceTree = "<group>"; };
+		111037BC16ED387800BB34FB /* MyLotteryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLotteryCell.h; sourceTree = "<group>"; };
+		111037BD16ED387800BB34FB /* MyLotteryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLotteryCell.m; sourceTree = "<group>"; };
+		1117D0FE16EBDA9500F16627 /* UserMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserMainViewController.h; sourceTree = "<group>"; };
+		1117D0FF16EBDA9500F16627 /* UserMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserMainViewController.m; sourceTree = "<group>"; };
+		1117D10016EBDA9500F16627 /* UserMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserMainViewController.xib; sourceTree = "<group>"; };
+		1117D10A16EBDAFD00F16627 /* ExpectForecastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpectForecastViewController.h; sourceTree = "<group>"; };
+		1117D10B16EBDAFD00F16627 /* ExpectForecastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpectForecastViewController.m; sourceTree = "<group>"; };
+		1117D10C16EBDAFD00F16627 /* ExpectForecastViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpectForecastViewController.xib; sourceTree = "<group>"; };
+		1117D10F16EBDB0A00F16627 /* LotteryRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotteryRoomViewController.h; sourceTree = "<group>"; };
+		1117D11016EBDB0B00F16627 /* LotteryRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotteryRoomViewController.m; sourceTree = "<group>"; };
+		1117D11116EBDB0B00F16627 /* LotteryRoomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LotteryRoomViewController.xib; sourceTree = "<group>"; };
+		1117D11416EBDB2D00F16627 /* StationMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationMainViewController.h; sourceTree = "<group>"; };
+		1117D11516EBDB2D00F16627 /* StationMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationMainViewController.m; sourceTree = "<group>"; };
+		1117D11616EBDB2D00F16627 /* StationMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StationMainViewController.xib; sourceTree = "<group>"; };
+		1117D11916EBDB5500F16627 /* PersonalCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterViewController.h; sourceTree = "<group>"; };
+		1117D11A16EBDB5500F16627 /* PersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterViewController.m; sourceTree = "<group>"; };
+		1117D11B16EBDB5500F16627 /* PersonalCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalCenterViewController.xib; sourceTree = "<group>"; };
+		1117D13C16EBE5EA00F16627 /* lottery_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lottery_icon.png; sourceTree = "<group>"; };
+		1117D14416EBE7A600F16627 /* light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light.png; sourceTree = "<group>"; };
 		11408CAC16EB9A500062BE8E /* Lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11408CB016EB9A500062BE8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		11408CB216EB9A500062BE8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -26,6 +89,22 @@
 		11408CBE16EB9A500062BE8E /* Lottery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lottery-Prefix.pch"; sourceTree = "<group>"; };
 		11408CBF16EB9A500062BE8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Lottery/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		11408CC016EB9A500062BE8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Lottery/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		11408CDA16EBA2130062BE8E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		11408CDB16EBA2130062BE8E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		11408CDC16EBA2130062BE8E /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		11C87C5D16EBEAB70077D0BA /* BuyLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyLotteryViewController.h; sourceTree = "<group>"; };
+		11C87C5E16EBEAB70077D0BA /* BuyLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyLotteryViewController.m; sourceTree = "<group>"; };
+		11C87C5F16EBEAB70077D0BA /* BuyLotteryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuyLotteryViewController.xib; sourceTree = "<group>"; };
+		11C87C6816EC048B0077D0BA /* LetteryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetteryTableViewCell.h; sourceTree = "<group>"; };
+		11C87C6916EC048B0077D0BA /* LetteryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetteryTableViewCell.m; sourceTree = "<group>"; };
+		11EDD4D516ED562B0008B703 /* Lottery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lottery.h; sourceTree = "<group>"; };
+		11EDD4D616ED562B0008B703 /* Lottery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lottery.m; sourceTree = "<group>"; };
+		11EDD4D816ED61CA0008B703 /* MyLotteryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLotteryDetailViewController.h; sourceTree = "<group>"; };
+		11EDD4D916ED61CB0008B703 /* MyLotteryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLotteryDetailViewController.m; sourceTree = "<group>"; };
+		11EDD4DA16ED61CB0008B703 /* MyLotteryDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyLotteryDetailViewController.xib; sourceTree = "<group>"; };
+		11F95BF416EC1824009485B2 /* LetteryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetteryDetailViewController.h; sourceTree = "<group>"; };
+		11F95BF516EC1824009485B2 /* LetteryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetteryDetailViewController.m; sourceTree = "<group>"; };
+		11F95BF616EC1825009485B2 /* LetteryDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LetteryDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +121,125 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		111037B216ED0CFA00BB34FB /* NIDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				111037B316ED0CFA00BB34FB /* NIDropDown.h */,
+				111037B416ED0CFA00BB34FB /* NIDropDown.m */,
+			);
+			path = NIDropDown;
+			sourceTree = "<group>";
+		};
+		111037B616ED1A2A00BB34FB /* MyLotteryView */ = {
+			isa = PBXGroup;
+			children = (
+				111037BC16ED387800BB34FB /* MyLotteryCell.h */,
+				111037BD16ED387800BB34FB /* MyLotteryCell.m */,
+				11EDD4D816ED61CA0008B703 /* MyLotteryDetailViewController.h */,
+				11EDD4D916ED61CB0008B703 /* MyLotteryDetailViewController.m */,
+				11EDD4DA16ED61CB0008B703 /* MyLotteryDetailViewController.xib */,
+				111037B716ED1A2A00BB34FB /* MyLotteryViewController.h */,
+				111037B816ED1A2A00BB34FB /* MyLotteryViewController.m */,
+				111037B916ED1A2A00BB34FB /* MyLotteryViewController.xib */,
+			);
+			path = MyLotteryView;
+			sourceTree = "<group>";
+		};
+		1117D0F416EBDA9500F16627 /* StationMainView */ = {
+			isa = PBXGroup;
+			children = (
+				1117D11416EBDB2D00F16627 /* StationMainViewController.h */,
+				1117D11516EBDB2D00F16627 /* StationMainViewController.m */,
+				1117D11616EBDB2D00F16627 /* StationMainViewController.xib */,
+			);
+			path = StationMainView;
+			sourceTree = "<group>";
+		};
+		1117D0F916EBDA9500F16627 /* UserMainView */ = {
+			isa = PBXGroup;
+			children = (
+				1117D0FA16EBDA9500F16627 /* BuyLotteryView */,
+				1117D0FB16EBDA9500F16627 /* ExpectForecastView */,
+				1117D0FC16EBDA9500F16627 /* LotteryRoomView */,
+				1117D0FD16EBDA9500F16627 /* PersonalCenterView */,
+				1117D0FE16EBDA9500F16627 /* UserMainViewController.h */,
+				1117D0FF16EBDA9500F16627 /* UserMainViewController.m */,
+				1117D10016EBDA9500F16627 /* UserMainViewController.xib */,
+			);
+			path = UserMainView;
+			sourceTree = "<group>";
+		};
+		1117D0FA16EBDA9500F16627 /* BuyLotteryView */ = {
+			isa = PBXGroup;
+			children = (
+				11C87C5D16EBEAB70077D0BA /* BuyLotteryViewController.h */,
+				11C87C5E16EBEAB70077D0BA /* BuyLotteryViewController.m */,
+				11C87C5F16EBEAB70077D0BA /* BuyLotteryViewController.xib */,
+				11F95BF416EC1824009485B2 /* LetteryDetailViewController.h */,
+				11F95BF516EC1824009485B2 /* LetteryDetailViewController.m */,
+				11F95BF616EC1825009485B2 /* LetteryDetailViewController.xib */,
+				11C87C6816EC048B0077D0BA /* LetteryTableViewCell.h */,
+				11C87C6916EC048B0077D0BA /* LetteryTableViewCell.m */,
+			);
+			path = BuyLotteryView;
+			sourceTree = "<group>";
+		};
+		1117D0FB16EBDA9500F16627 /* ExpectForecastView */ = {
+			isa = PBXGroup;
+			children = (
+				1117D10A16EBDAFD00F16627 /* ExpectForecastViewController.h */,
+				1117D10B16EBDAFD00F16627 /* ExpectForecastViewController.m */,
+				1117D10C16EBDAFD00F16627 /* ExpectForecastViewController.xib */,
+				111037AB16ED045D00BB34FB /* ExpectTableViewCell.h */,
+				111037AC16ED045D00BB34FB /* ExpectTableViewCell.m */,
+			);
+			path = ExpectForecastView;
+			sourceTree = "<group>";
+		};
+		1117D0FC16EBDA9500F16627 /* LotteryRoomView */ = {
+			isa = PBXGroup;
+			children = (
+				1117D10F16EBDB0A00F16627 /* LotteryRoomViewController.h */,
+				1117D11016EBDB0B00F16627 /* LotteryRoomViewController.m */,
+				1117D11116EBDB0B00F16627 /* LotteryRoomViewController.xib */,
+			);
+			path = LotteryRoomView;
+			sourceTree = "<group>";
+		};
+		1117D0FD16EBDA9500F16627 /* PersonalCenterView */ = {
+			isa = PBXGroup;
+			children = (
+				111037A116ECFBDA00BB34FB /* BookBalanceViewController.h */,
+				111037A216ECFBDA00BB34FB /* BookBalanceViewController.m */,
+				111037A316ECFBDA00BB34FB /* BookBalanceViewController.xib */,
+				111037B616ED1A2A00BB34FB /* MyLotteryView */,
+				111037A616ECFCE900BB34FB /* MyselfInfomationViewController.h */,
+				111037A716ECFCE900BB34FB /* MyselfInfomationViewController.m */,
+				111037A816ECFCE900BB34FB /* MyselfInfomationViewController.xib */,
+				1117D11916EBDB5500F16627 /* PersonalCenterViewController.h */,
+				1117D11A16EBDB5500F16627 /* PersonalCenterViewController.m */,
+				1117D11B16EBDB5500F16627 /* PersonalCenterViewController.xib */,
+			);
+			path = PersonalCenterView;
+			sourceTree = "<group>";
+		};
+		1117D12216EBE0E200F16627 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1117D13916EBE5EA00F16627 /* UserMainView */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1117D13916EBE5EA00F16627 /* UserMainView */ = {
+			isa = PBXGroup;
+			children = (
+				1117D14416EBE7A600F16627 /* light.png */,
+				1117D13C16EBE5EA00F16627 /* lottery_icon.png */,
+			);
+			path = UserMainView;
+			sourceTree = "<group>";
+		};
 		11408CA116EB9A4F0062BE8E = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				11408CD516EB9BD00062BE8E /* AppDelegate */,
+				11EDD4D216ED550C0008B703 /* ShareDate */,
 				11408CD616EB9BF70062BE8E /* Views */,
 			);
 			path = Classes;
@@ -113,6 +312,9 @@
 		11408CD616EB9BF70062BE8E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				11408CD916EBA1B00062BE8E /* LoginView */,
+				1117D0F416EBDA9500F16627 /* StationMainView */,
+				1117D0F916EBDA9500F16627 /* UserMainView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -120,6 +322,7 @@
 		11408CD716EB9C490062BE8E /* Externals */ = {
 			isa = PBXGroup;
 			children = (
+				111037B216ED0CFA00BB34FB /* NIDropDown */,
 			);
 			path = Externals;
 			sourceTree = "<group>";
@@ -127,8 +330,36 @@
 		11408CD816EB9C490062BE8E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1117D12216EBE0E200F16627 /* Images */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		11408CD916EBA1B00062BE8E /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				11408CDA16EBA2130062BE8E /* LoginViewController.h */,
+				11408CDB16EBA2130062BE8E /* LoginViewController.m */,
+				11408CDC16EBA2130062BE8E /* LoginViewController.xib */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		11EDD4D216ED550C0008B703 /* ShareDate */ = {
+			isa = PBXGroup;
+			children = (
+				11EDD4D416ED552E0008B703 /* Lottery */,
+			);
+			path = ShareDate;
+			sourceTree = "<group>";
+		};
+		11EDD4D416ED552E0008B703 /* Lottery */ = {
+			isa = PBXGroup;
+			children = (
+				11EDD4D516ED562B0008B703 /* Lottery.h */,
+				11EDD4D616ED562B0008B703 /* Lottery.m */,
+			);
+			path = Lottery;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +413,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				11408CBB16EB9A500062BE8E /* InfoPlist.strings in Resources */,
+				11408CDE16EBA2130062BE8E /* LoginViewController.xib in Resources */,
+				1117D10416EBDA9500F16627 /* UserMainViewController.xib in Resources */,
+				1117D10E16EBDAFD00F16627 /* ExpectForecastViewController.xib in Resources */,
+				1117D11316EBDB0B00F16627 /* LotteryRoomViewController.xib in Resources */,
+				1117D11816EBDB2D00F16627 /* StationMainViewController.xib in Resources */,
+				1117D11D16EBDB5500F16627 /* PersonalCenterViewController.xib in Resources */,
+				1117D14116EBE5EA00F16627 /* lottery_icon.png in Resources */,
+				1117D14516EBE7A600F16627 /* light.png in Resources */,
+				11C87C6116EBEAB70077D0BA /* BuyLotteryViewController.xib in Resources */,
+				11F95BF816EC1825009485B2 /* LetteryDetailViewController.xib in Resources */,
+				111037A516ECFBDA00BB34FB /* BookBalanceViewController.xib in Resources */,
+				111037AA16ECFCE900BB34FB /* MyselfInfomationViewController.xib in Resources */,
+				111037BB16ED1A2A00BB34FB /* MyLotteryViewController.xib in Resources */,
+				11EDD4DC16ED61CB0008B703 /* MyLotteryDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +439,23 @@
 			files = (
 				11408CBD16EB9A500062BE8E /* main.m in Sources */,
 				11408CC116EB9A500062BE8E /* AppDelegate.m in Sources */,
+				11408CDD16EBA2130062BE8E /* LoginViewController.m in Sources */,
+				1117D10316EBDA9500F16627 /* UserMainViewController.m in Sources */,
+				1117D10D16EBDAFD00F16627 /* ExpectForecastViewController.m in Sources */,
+				1117D11216EBDB0B00F16627 /* LotteryRoomViewController.m in Sources */,
+				1117D11716EBDB2D00F16627 /* StationMainViewController.m in Sources */,
+				1117D11C16EBDB5500F16627 /* PersonalCenterViewController.m in Sources */,
+				11C87C6016EBEAB70077D0BA /* BuyLotteryViewController.m in Sources */,
+				11C87C6A16EC048B0077D0BA /* LetteryTableViewCell.m in Sources */,
+				11F95BF716EC1825009485B2 /* LetteryDetailViewController.m in Sources */,
+				111037A416ECFBDA00BB34FB /* BookBalanceViewController.m in Sources */,
+				111037A916ECFCE900BB34FB /* MyselfInfomationViewController.m in Sources */,
+				111037AD16ED045D00BB34FB /* ExpectTableViewCell.m in Sources */,
+				111037B516ED0CFA00BB34FB /* NIDropDown.m in Sources */,
+				111037BA16ED1A2A00BB34FB /* MyLotteryViewController.m in Sources */,
+				111037BE16ED387800BB34FB /* MyLotteryCell.m in Sources */,
+				11EDD4D716ED562B0008B703 /* Lottery.m in Sources */,
+				11EDD4DB16ED61CB0008B703 /* MyLotteryDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
