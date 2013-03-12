@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		111037A416ECFBDA00BB34FB /* BookBalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 111037A216ECFBDA00BB34FB /* BookBalanceViewController.m */; };
-		111037A516ECFBDA00BB34FB /* BookBalanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 111037A316ECFBDA00BB34FB /* BookBalanceViewController.xib */; };
+		110ECC2E16EE6BA60084A0E9 /* BookBalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110ECC2C16EE6BA60084A0E9 /* BookBalanceViewController.m */; };
+		110ECC2F16EE6BA60084A0E9 /* BookBalanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 110ECC2D16EE6BA60084A0E9 /* BookBalanceViewController.xib */; };
+		110ECC3216EE6BDB0084A0E9 /* BookBalanceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 110ECC3116EE6BDB0084A0E9 /* BookBalanceTableViewCell.m */; };
+		110ECC3616EE93DD0084A0E9 /* BookBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = 110ECC3516EE93DD0084A0E9 /* BookBalance.m */; };
+		110ECC3A16EE98DD0084A0E9 /* BookBalaceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110ECC3816EE98DD0084A0E9 /* BookBalaceDetailViewController.m */; };
+		110ECC3B16EE98DD0084A0E9 /* BookBalaceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 110ECC3916EE98DD0084A0E9 /* BookBalaceDetailViewController.xib */; };
 		111037A916ECFCE900BB34FB /* MyselfInfomationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 111037A716ECFCE900BB34FB /* MyselfInfomationViewController.m */; };
 		111037AA16ECFCE900BB34FB /* MyselfInfomationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 111037A816ECFCE900BB34FB /* MyselfInfomationViewController.xib */; };
 		111037AD16ED045D00BB34FB /* ExpectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 111037AC16ED045D00BB34FB /* ExpectTableViewCell.m */; };
@@ -47,9 +51,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		111037A116ECFBDA00BB34FB /* BookBalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookBalanceViewController.h; sourceTree = "<group>"; };
-		111037A216ECFBDA00BB34FB /* BookBalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookBalanceViewController.m; sourceTree = "<group>"; };
-		111037A316ECFBDA00BB34FB /* BookBalanceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookBalanceViewController.xib; sourceTree = "<group>"; };
+		110ECC2B16EE6BA60084A0E9 /* BookBalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookBalanceViewController.h; sourceTree = "<group>"; };
+		110ECC2C16EE6BA60084A0E9 /* BookBalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookBalanceViewController.m; sourceTree = "<group>"; };
+		110ECC2D16EE6BA60084A0E9 /* BookBalanceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookBalanceViewController.xib; sourceTree = "<group>"; };
+		110ECC3016EE6BDB0084A0E9 /* BookBalanceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookBalanceTableViewCell.h; sourceTree = "<group>"; };
+		110ECC3116EE6BDB0084A0E9 /* BookBalanceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookBalanceTableViewCell.m; sourceTree = "<group>"; };
+		110ECC3416EE93DD0084A0E9 /* BookBalance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookBalance.h; sourceTree = "<group>"; };
+		110ECC3516EE93DD0084A0E9 /* BookBalance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookBalance.m; sourceTree = "<group>"; };
+		110ECC3716EE98DD0084A0E9 /* BookBalaceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookBalaceDetailViewController.h; sourceTree = "<group>"; };
+		110ECC3816EE98DD0084A0E9 /* BookBalaceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookBalaceDetailViewController.m; sourceTree = "<group>"; };
+		110ECC3916EE98DD0084A0E9 /* BookBalaceDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookBalaceDetailViewController.xib; sourceTree = "<group>"; };
 		111037A616ECFCE900BB34FB /* MyselfInfomationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyselfInfomationViewController.h; sourceTree = "<group>"; };
 		111037A716ECFCE900BB34FB /* MyselfInfomationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyselfInfomationViewController.m; sourceTree = "<group>"; };
 		111037A816ECFCE900BB34FB /* MyselfInfomationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyselfInfomationViewController.xib; sourceTree = "<group>"; };
@@ -121,6 +132,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		110ECC2A16EE6BA60084A0E9 /* BookBalanceView */ = {
+			isa = PBXGroup;
+			children = (
+				110ECC2B16EE6BA60084A0E9 /* BookBalanceViewController.h */,
+				110ECC2C16EE6BA60084A0E9 /* BookBalanceViewController.m */,
+				110ECC2D16EE6BA60084A0E9 /* BookBalanceViewController.xib */,
+				110ECC3016EE6BDB0084A0E9 /* BookBalanceTableViewCell.h */,
+				110ECC3116EE6BDB0084A0E9 /* BookBalanceTableViewCell.m */,
+				110ECC3716EE98DD0084A0E9 /* BookBalaceDetailViewController.h */,
+				110ECC3816EE98DD0084A0E9 /* BookBalaceDetailViewController.m */,
+				110ECC3916EE98DD0084A0E9 /* BookBalaceDetailViewController.xib */,
+			);
+			path = BookBalanceView;
+			sourceTree = "<group>";
+		};
+		110ECC3316EE93CB0084A0E9 /* BookBalance */ = {
+			isa = PBXGroup;
+			children = (
+				110ECC3416EE93DD0084A0E9 /* BookBalance.h */,
+				110ECC3516EE93DD0084A0E9 /* BookBalance.m */,
+			);
+			path = BookBalance;
+			sourceTree = "<group>";
+		};
 		111037B216ED0CFA00BB34FB /* NIDropDown */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,9 +244,7 @@
 		1117D0FD16EBDA9500F16627 /* PersonalCenterView */ = {
 			isa = PBXGroup;
 			children = (
-				111037A116ECFBDA00BB34FB /* BookBalanceViewController.h */,
-				111037A216ECFBDA00BB34FB /* BookBalanceViewController.m */,
-				111037A316ECFBDA00BB34FB /* BookBalanceViewController.xib */,
+				110ECC2A16EE6BA60084A0E9 /* BookBalanceView */,
 				111037B616ED1A2A00BB34FB /* MyLotteryView */,
 				111037A616ECFCE900BB34FB /* MyselfInfomationViewController.h */,
 				111037A716ECFCE900BB34FB /* MyselfInfomationViewController.m */,
@@ -348,6 +381,7 @@
 		11EDD4D216ED550C0008B703 /* ShareDate */ = {
 			isa = PBXGroup;
 			children = (
+				110ECC3316EE93CB0084A0E9 /* BookBalance */,
 				11EDD4D416ED552E0008B703 /* Lottery */,
 			);
 			path = ShareDate;
@@ -423,10 +457,11 @@
 				1117D14516EBE7A600F16627 /* light.png in Resources */,
 				11C87C6116EBEAB70077D0BA /* BuyLotteryViewController.xib in Resources */,
 				11F95BF816EC1825009485B2 /* LetteryDetailViewController.xib in Resources */,
-				111037A516ECFBDA00BB34FB /* BookBalanceViewController.xib in Resources */,
 				111037AA16ECFCE900BB34FB /* MyselfInfomationViewController.xib in Resources */,
 				111037BB16ED1A2A00BB34FB /* MyLotteryViewController.xib in Resources */,
 				11EDD4DC16ED61CB0008B703 /* MyLotteryDetailViewController.xib in Resources */,
+				110ECC2F16EE6BA60084A0E9 /* BookBalanceViewController.xib in Resources */,
+				110ECC3B16EE98DD0084A0E9 /* BookBalaceDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +483,6 @@
 				11C87C6016EBEAB70077D0BA /* BuyLotteryViewController.m in Sources */,
 				11C87C6A16EC048B0077D0BA /* LetteryTableViewCell.m in Sources */,
 				11F95BF716EC1825009485B2 /* LetteryDetailViewController.m in Sources */,
-				111037A416ECFBDA00BB34FB /* BookBalanceViewController.m in Sources */,
 				111037A916ECFCE900BB34FB /* MyselfInfomationViewController.m in Sources */,
 				111037AD16ED045D00BB34FB /* ExpectTableViewCell.m in Sources */,
 				111037B516ED0CFA00BB34FB /* NIDropDown.m in Sources */,
@@ -456,6 +490,10 @@
 				111037BE16ED387800BB34FB /* MyLotteryCell.m in Sources */,
 				11EDD4D716ED562B0008B703 /* Lottery.m in Sources */,
 				11EDD4DB16ED61CB0008B703 /* MyLotteryDetailViewController.m in Sources */,
+				110ECC2E16EE6BA60084A0E9 /* BookBalanceViewController.m in Sources */,
+				110ECC3216EE6BDB0084A0E9 /* BookBalanceTableViewCell.m in Sources */,
+				110ECC3616EE93DD0084A0E9 /* BookBalance.m in Sources */,
+				110ECC3A16EE98DD0084A0E9 /* BookBalaceDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -80,37 +80,94 @@
     lottery.imgUrl   = @"lottery_icon";
     lottery.name     = @"大乐透";
     lottery.phase    = @"100022";
-    lottery.monery   = @"10";
+    lottery.money    = @"10";
     lottery.reward   = @"10";
     lottery.time     = @"15:43 03-11";
     lottery.kLotteryStatus = kLotteryWin;
+    lottery.pepoleID   = @"123234";
+    lottery.betAmounts = @"1";
+    lottery.times      = @"1";
+    lottery.buyType    = @"代购";
+    lottery.betTime    = @"2013-01-10 15:42";
+    lottery.projectStatus = @"投注成功";
+    lottery.result     = @"未中奖";
+    lottery.phaseTotal = @"0";
+    lottery.currentNumber = @"01 02 03 04 05 06 07";
+    lottery.projectArray  = [[NSMutableArray alloc]initWithObjects:@"01 02 44 43",
+                                                                   @"02 04 50 09",
+                                                                   @"13 11 14 15",
+                                                                   @"16 17 18 19",
+                                                                   @"12 13 14 15",nil];
+    
     
     Lottery *lottery1 = [[[Lottery alloc]init]autorelease];
     lottery1.imgUrl   = @"lottery_icon";
     lottery1.name     = @"大乐透";
     lottery1.phase    = @"100022";
-    lottery1.monery   = @"10";
+    lottery1.money    = @"10";
     lottery1.reward   = @"10";
     lottery1.time     = @"15:43 03-11";
     lottery1.kLotteryStatus = kLotteryWin;
+    lottery1.pepoleID   = @"123234";
+    lottery1.betAmounts = @"1";
+    lottery1.times      = @"1";
+    lottery1.buyType    = @"代购";
+    lottery1.betTime    = @"2013-01-10 15:42";
+    lottery1.projectStatus = @"投注成功";
+    lottery1.result     = @"未中奖";
+    lottery1.phaseTotal = @"0";
+    lottery1.currentNumber = @"01 02 03 04 05 06 07";
+    lottery1.projectArray  = [[NSMutableArray alloc]initWithObjects:@"01 02 44 43",
+                             @"02 04 50 09",
+                             @"13 11 14 15",
+                             @"16 17 18 19",
+                             @"12 13 14 15",nil];
     
     Lottery *lottery2 = [[[Lottery alloc]init]autorelease];
     lottery2.imgUrl   = @"lottery_icon";
     lottery2.name     = @"大乐透";
     lottery2.phase    = @"100022";
-    lottery2.monery   = @"10";
+    lottery2.money    = @"10";
     lottery2.reward   = @"10";
     lottery2.time     = @"15:43 03-11";
     lottery2.kLotteryStatus = kLotteryWin;
+    lottery2.pepoleID   = @"123234";
+    lottery2.betAmounts = @"1";
+    lottery2.times      = @"1";
+    lottery2.buyType    = @"代购";
+    lottery2.betTime    = @"2013-01-10 15:42";
+    lottery2.projectStatus = @"投注成功";
+    lottery2.result     = @"未中奖";
+    lottery2.phaseTotal = @"0";
+    lottery2.currentNumber = @"01 02 03 04 05 06 07";
+    lottery2.projectArray  = [[NSMutableArray alloc]initWithObjects:@"01 02 44 43",
+                                                                    @"02 04 50 09",
+                                                                    @"13 11 14 15",
+                                                                    @"16 17 18 19",
+                                                                    @"12 13 14 15",nil];
     
     Lottery *lottery3 = [[[Lottery alloc]init]autorelease];
     lottery3.imgUrl   = @"lottery_icon";
     lottery3.name     = @"大乐透";
     lottery3.phase    = @"100022";
-    lottery3.monery   = @"10";
+    lottery3.money    = @"10";
     lottery3.reward   = @"10";
     lottery3.time     = @"15:43 03-11";
     lottery3.kLotteryStatus = kLotteryWin;
+    lottery3.pepoleID   = @"123234";
+    lottery3.betAmounts = @"1";
+    lottery3.times      = @"1";
+    lottery3.buyType    = @"代购";
+    lottery3.betTime    = @"2013-01-10 15:42";
+    lottery3.projectStatus = @"投注成功";
+    lottery3.result     = @"未中奖";
+    lottery3.phaseTotal = @"0";
+    lottery3.currentNumber = @"01 02 03 04 05 06 07";
+    lottery3.projectArray  = [[NSMutableArray alloc]initWithObjects:@"01 02 44 43",
+                             @"02 04 50 09",
+                             @"13 11 14 15",
+                             @"16 17 18 19",
+                             @"12 13 14 15",nil];
     
     myLotteryArray = [[NSMutableArray alloc]init];
     [myLotteryArray addObject:lottery];
@@ -177,7 +234,7 @@
     
     cell.nameLab.text   = lottery.name;
     cell.phaseLab.text  = [NSString stringWithFormat:@"%@期", lottery.phase];
-    cell.moneyLab.text  = [NSString stringWithFormat:@"%@元", lottery.monery];
+    cell.moneyLab.text  = [NSString stringWithFormat:@"%@元", lottery.money];
     cell.timeLab.text   = lottery.time;
     cell.rewardLab.text = [NSString stringWithFormat:@"%@元", lottery.reward];
     switch (lottery.kLotteryStatus)
@@ -234,9 +291,9 @@
 {
     NSArray * arr = [[NSArray alloc] init];
     arr = [NSArray arrayWithObjects:@"全部",@"七彩乐",
-                                   @"双色球",@"7位数",
-                                   @"大乐透",@"11选5",
-                                   @"快3",nil];
+                                    @"双色球",@"7位数",
+                                    @"大乐透",@"11选5",
+                                    @"快3",nil];
     if(typeDropDown == nil) 
     {
         CGFloat f = 200;

@@ -9,9 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "Lottery.h"
 
-@interface MyLotteryDetailViewController : UIViewController
+@interface MyLotteryDetailViewController : UIViewController<
+                                                            UITableViewDelegate,
+                                                            UITableViewDataSource>
 {
-    Lottery     *lottery;
+    Lottery         *lottery;
+    UITableView     *lotteryDetailTab;
 }
 
 @property (nonatomic, copy) Lottery   *lottery;
