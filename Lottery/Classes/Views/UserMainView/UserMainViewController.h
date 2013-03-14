@@ -12,4 +12,6 @@
 {
     UITabBarController      *actionTabBarCtr;
 }
+
++ (UINavigationController *)getNavViewController;
 @end

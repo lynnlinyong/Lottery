@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LotteryRoomViewController : UIViewController
-
+@interface LotteryRoomViewController : UIViewController <UITableViewDelegate,
+                                                         UITableViewDataSource>
+{
+    UITableView     *lotteryTab;
+    NSMutableArray  *lotteryArray;
+}
 @end

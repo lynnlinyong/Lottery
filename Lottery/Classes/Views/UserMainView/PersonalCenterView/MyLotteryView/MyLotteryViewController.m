@@ -262,10 +262,9 @@
 
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    MyLotteryDetailViewController *lotteryDetailViewCtr = [[MyLotteryDetailViewController alloc]init];
+    MyLotteryDetailViewController *lotteryDetailViewCtr = [[MyLotteryDetailViewController alloc]initWithStyle:UITableViewStyleGrouped];
     lotteryDetailViewCtr.lottery   = [myLotteryArray objectAtIndex:indexPath.row];
-    AppDelegate *appDelegate       = [[UIApplication sharedApplication] delegate];
-    UINavigationController *navCtr = (UINavigationController *)appDelegate.window.rootViewController;
+    UINavigationController *navCtr = [UserMainViewController getNavViewController];
     [navCtr pushViewController:lotteryDetailViewCtr 
                       animated:YES];
     [lotteryDetailViewCtr release];

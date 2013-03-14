@@ -122,8 +122,7 @@
 
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-    UINavigationController *navCtr = (UINavigationController *)appDelegate.window.rootViewController;
+    UINavigationController *navCtr = [UserMainViewController getNavViewController];
     if (isSport)
     {
         switch (indexPath.row)

@@ -86,18 +86,18 @@
         lotteryObj.name   = [name   copy];
         lotteryObj.phase  = [phase  copy];
         lotteryObj.time   = [time   copy];
-        lotteryObj.money  = [money copy];
+        lotteryObj.money  = [money  copy];
         lotteryObj.reward = [reward copy];
         lotteryObj.kLotteryStatus = kLotteryStatus;
         
         lotteryObj.betAmounts = [betAmounts copy];
-        lotteryObj.times   = [times copy];
-        lotteryObj.buyType = [buyType copy];
-        lotteryObj.betTime = [betTime copy];
-        lotteryObj.projectStatus = [projectStatus copy];
-        lotteryObj.result        = [result copy];
-        lotteryObj.phaseTotal    = [phaseTotal copy];
-        lotteryObj.currentNumber = [currentNumber copy];
+        lotteryObj.times   = [times     copy];
+        lotteryObj.buyType = [buyType   copy];
+        lotteryObj.betTime = [betTime   copy];
+        lotteryObj.projectStatus = [projectStatus   copy];
+        lotteryObj.result        = [result          copy];
+        lotteryObj.phaseTotal    = [phaseTotal      copy];
+        lotteryObj.currentNumber = [currentNumber   copy];
         lotteryObj.projectArray  = [projectArray mutableCopy];
     }
     
@@ -113,19 +113,19 @@
         lotteryObj.name   = [name   copy];
         lotteryObj.phase  = [phase  copy];
         lotteryObj.time   = [time   copy];
-        lotteryObj.money  = [money copy];
+        lotteryObj.money  = [money  copy];
         lotteryObj.reward = [reward copy];
         lotteryObj.kLotteryStatus = kLotteryStatus;
         
         lotteryObj.betAmounts = [betAmounts copy];
-        lotteryObj.times   = [times copy];
-        lotteryObj.buyType = [buyType copy];
-        lotteryObj.betTime = [betTime copy];
-        lotteryObj.projectStatus = [projectStatus copy];
-        lotteryObj.result        = [result copy];
-        lotteryObj.phaseTotal    = [phaseTotal copy];
-        lotteryObj.currentNumber = [currentNumber copy];
-        lotteryObj.projectArray  = [projectArray mutableCopy];
+        lotteryObj.times   = [times     copy];
+        lotteryObj.buyType = [buyType   copy];
+        lotteryObj.betTime = [betTime   copy];
+        lotteryObj.projectStatus = [projectStatus   copy];
+        lotteryObj.result        = [result          copy];
+        lotteryObj.phaseTotal    = [phaseTotal      copy];
+        lotteryObj.currentNumber = [currentNumber   copy];
+        lotteryObj.projectArray  = [projectArray    mutableCopy];
     }
     
     return lotteryObj;

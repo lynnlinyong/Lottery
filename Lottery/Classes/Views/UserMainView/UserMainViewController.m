@@ -5,7 +5,7 @@
 //  Created by lynn  lynn on 13-3-10.
 //  Copyright (c) 2013年 __MyCompanyName__. All rights reserved.
 //
-
+#import "AppDelegate.h"
 #import "UserMainViewController.h"
 #import "BuyLotteryViewController.h"
 #import "LotteryRoomViewController.h"
@@ -91,7 +91,7 @@
         }
         case 1:         //彩票大厅
         {
-            self.title = @"彩票大厅";
+            self.title = @"开奖大厅";
             break;
         }
         case 2:         //用户中心
@@ -110,4 +110,9 @@
     
 }
 
++ (UINavigationController *)getNavViewController
+{
+    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    return (UINavigationController *)appDelegate.window.rootViewController;
+}
 @end

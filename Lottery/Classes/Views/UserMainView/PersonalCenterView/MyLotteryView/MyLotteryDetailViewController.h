@@ -8,14 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "Lottery.h"
+#import "GCArraySectionController.h"
 
-@interface MyLotteryDetailViewController : UIViewController<
-                                                            UITableViewDelegate,
-                                                            UITableViewDataSource>
+@interface MyLotteryDetailViewController : UITableViewController
 {
-    Lottery         *lottery;
-    UITableView     *lotteryDetailTab;
+    Lottery                     *lottery;
+    UITableView                 *lotteryDetailTab;
+    GCArraySectionController    *arrayController;
 }
 
-@property (nonatomic, copy) Lottery   *lottery;
+@property (nonatomic, retain) Lottery   *lottery;
 @end
