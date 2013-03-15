@@ -9,10 +9,16 @@
 #import <UIKit/UIKit.h>
 #import "Lottery.h"
 
-@interface LotteryDetailViewController : UIViewController
+@interface LotteryDetailViewController : UIViewController<
+                                                        UITableViewDelegate,
+                                                        UITableViewDataSource>
 {
     Lottery         *lottery;
+    
+    UITableView     *lotteryRankTab;
+    
+    NSMutableArray  *rankArray;
 }
 
-@property (nonatomic, retain) Lottery     *lottery;
+@property (nonatomic, retain) Lottery    *lottery;
 @end

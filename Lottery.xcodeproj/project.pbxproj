@@ -43,6 +43,8 @@
 		11C87C6016EBEAB70077D0BA /* BuyLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C87C5E16EBEAB70077D0BA /* BuyLotteryViewController.m */; };
 		11C87C6116EBEAB70077D0BA /* BuyLotteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11C87C5F16EBEAB70077D0BA /* BuyLotteryViewController.xib */; };
 		11C87C6A16EC048B0077D0BA /* LetteryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C87C6916EC048B0077D0BA /* LetteryTableViewCell.m */; };
+		11E87CAC16F2A17C002DDF56 /* Award.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E87CAB16F2A17C002DDF56 /* Award.m */; };
+		11E87CAE16F2AE10002DDF56 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = 11E87CAD16F2AE10002DDF56 /* line.png */; };
 		11EDD4D716ED562B0008B703 /* Lottery.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EDD4D616ED562B0008B703 /* Lottery.m */; };
 		11EDD4DB16ED61CB0008B703 /* MyLotteryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EDD4D916ED61CB0008B703 /* MyLotteryDetailViewController.m */; };
 		11EDD4DC16ED61CB0008B703 /* MyLotteryDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11EDD4DA16ED61CB0008B703 /* MyLotteryDetailViewController.xib */; };
@@ -59,12 +61,6 @@
 		11F28BF516F13CC0004EFEB8 /* LotteryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F28BF416F13CC0004EFEB8 /* LotteryTableViewCell.m */; };
 		11F28BF916F14316004EFEB8 /* LotteryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F28BF716F14316004EFEB8 /* LotteryDetailViewController.m */; };
 		11F28BFA16F14316004EFEB8 /* LotteryDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F28BF816F14316004EFEB8 /* LotteryDetailViewController.xib */; };
-		11F28C2116F14938004EFEB8 /* EWHeaderHighlightLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F28C1516F14937004EFEB8 /* EWHeaderHighlightLayer.m */; };
-		11F28C2216F14938004EFEB8 /* EWMultiColumnTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F28C1716F14937004EFEB8 /* EWMultiColumnTableView.m */; };
-		11F28C2316F14938004EFEB8 /* EWMultiColumnTableViewBGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F28C1916F14937004EFEB8 /* EWMultiColumnTableViewBGScrollView.m */; };
-		11F28C2416F14938004EFEB8 /* EWMultiColumnTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F28C1B16F14937004EFEB8 /* EWMultiColumnTableViewCell.m */; };
-		11F28C2516F14938004EFEB8 /* EWMultiColumnTableViewContentBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F28C1D16F14937004EFEB8 /* EWMultiColumnTableViewContentBackgroundView.m */; };
-		11F28C2616F14938004EFEB8 /* UIView+AddLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F28C2016F14937004EFEB8 /* UIView+AddLine.m */; };
 		11F28C2A16F149D8004EFEB8 /* HistoryLotteyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F28C2816F149D8004EFEB8 /* HistoryLotteyViewController.m */; };
 		11F28C2B16F149D8004EFEB8 /* HistoryLotteyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F28C2916F149D8004EFEB8 /* HistoryLotteyViewController.xib */; };
 		11F28C2D16F14A24004EFEB8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F28C2C16F14A24004EFEB8 /* QuartzCore.framework */; };
@@ -131,6 +127,9 @@
 		11C87C5F16EBEAB70077D0BA /* BuyLotteryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuyLotteryViewController.xib; sourceTree = "<group>"; };
 		11C87C6816EC048B0077D0BA /* LetteryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetteryTableViewCell.h; sourceTree = "<group>"; };
 		11C87C6916EC048B0077D0BA /* LetteryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetteryTableViewCell.m; sourceTree = "<group>"; };
+		11E87CAA16F2A17C002DDF56 /* Award.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Award.h; sourceTree = "<group>"; };
+		11E87CAB16F2A17C002DDF56 /* Award.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Award.m; sourceTree = "<group>"; };
+		11E87CAD16F2AE10002DDF56 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
 		11EDD4D516ED562B0008B703 /* Lottery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lottery.h; sourceTree = "<group>"; };
 		11EDD4D616ED562B0008B703 /* Lottery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lottery.m; sourceTree = "<group>"; };
 		11EDD4D816ED61CA0008B703 /* MyLotteryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLotteryDetailViewController.h; sourceTree = "<group>"; };
@@ -154,19 +153,6 @@
 		11F28BF616F14316004EFEB8 /* LotteryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotteryDetailViewController.h; sourceTree = "<group>"; };
 		11F28BF716F14316004EFEB8 /* LotteryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotteryDetailViewController.m; sourceTree = "<group>"; };
 		11F28BF816F14316004EFEB8 /* LotteryDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LotteryDetailViewController.xib; sourceTree = "<group>"; };
-		11F28C1416F14937004EFEB8 /* EWHeaderHighlightLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWHeaderHighlightLayer.h; sourceTree = "<group>"; };
-		11F28C1516F14937004EFEB8 /* EWHeaderHighlightLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWHeaderHighlightLayer.m; sourceTree = "<group>"; };
-		11F28C1616F14937004EFEB8 /* EWMultiColumnTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWMultiColumnTableView.h; sourceTree = "<group>"; };
-		11F28C1716F14937004EFEB8 /* EWMultiColumnTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWMultiColumnTableView.m; sourceTree = "<group>"; };
-		11F28C1816F14937004EFEB8 /* EWMultiColumnTableViewBGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWMultiColumnTableViewBGScrollView.h; sourceTree = "<group>"; };
-		11F28C1916F14937004EFEB8 /* EWMultiColumnTableViewBGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWMultiColumnTableViewBGScrollView.m; sourceTree = "<group>"; };
-		11F28C1A16F14937004EFEB8 /* EWMultiColumnTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWMultiColumnTableViewCell.h; sourceTree = "<group>"; };
-		11F28C1B16F14937004EFEB8 /* EWMultiColumnTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWMultiColumnTableViewCell.m; sourceTree = "<group>"; };
-		11F28C1C16F14937004EFEB8 /* EWMultiColumnTableViewContentBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWMultiColumnTableViewContentBackgroundView.h; sourceTree = "<group>"; };
-		11F28C1D16F14937004EFEB8 /* EWMultiColumnTableViewContentBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWMultiColumnTableViewContentBackgroundView.m; sourceTree = "<group>"; };
-		11F28C1E16F14937004EFEB8 /* EWMultiColumnTableViewDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWMultiColumnTableViewDefaults.h; sourceTree = "<group>"; };
-		11F28C1F16F14937004EFEB8 /* UIView+AddLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AddLine.h"; sourceTree = "<group>"; };
-		11F28C2016F14937004EFEB8 /* UIView+AddLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AddLine.m"; sourceTree = "<group>"; };
 		11F28C2716F149D7004EFEB8 /* HistoryLotteyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryLotteyViewController.h; sourceTree = "<group>"; };
 		11F28C2816F149D8004EFEB8 /* HistoryLotteyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryLotteyViewController.m; sourceTree = "<group>"; };
 		11F28C2916F149D8004EFEB8 /* HistoryLotteyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryLotteyViewController.xib; sourceTree = "<group>"; };
@@ -338,6 +324,7 @@
 		1117D13916EBE5EA00F16627 /* UserMainView */ = {
 			isa = PBXGroup;
 			children = (
+				11E87CAD16F2AE10002DDF56 /* line.png */,
 				1117D14416EBE7A600F16627 /* light.png */,
 				1117D13C16EBE5EA00F16627 /* lottery_icon.png */,
 			);
@@ -430,7 +417,6 @@
 				11F28BF116F139FE004EFEB8 /* Debug */,
 				11F28BED16F11F2C004EFEB8 /* GCArraySectionController */,
 				11F28BD716F11CCB004EFEB8 /* GCRetractableSectionController */,
-				11F28C1316F14937004EFEB8 /* MultiColumnTableView */,
 				111037B216ED0CFA00BB34FB /* NIDropDown */,
 			);
 			path = Externals;
@@ -454,9 +440,19 @@
 			path = LoginView;
 			sourceTree = "<group>";
 		};
+		11E87CA816F2A169002DDF56 /* Award */ = {
+			isa = PBXGroup;
+			children = (
+				11E87CAA16F2A17C002DDF56 /* Award.h */,
+				11E87CAB16F2A17C002DDF56 /* Award.m */,
+			);
+			path = Award;
+			sourceTree = "<group>";
+		};
 		11EDD4D216ED550C0008B703 /* ShareDate */ = {
 			isa = PBXGroup;
 			children = (
+				11E87CA816F2A169002DDF56 /* Award */,
 				110ECC3316EE93CB0084A0E9 /* BookBalance */,
 				11EDD4D416ED552E0008B703 /* Lottery */,
 			);
@@ -512,26 +508,6 @@
 				11F28BF216F139FE004EFEB8 /* CLog.h */,
 			);
 			path = Debug;
-			sourceTree = "<group>";
-		};
-		11F28C1316F14937004EFEB8 /* MultiColumnTableView */ = {
-			isa = PBXGroup;
-			children = (
-				11F28C1416F14937004EFEB8 /* EWHeaderHighlightLayer.h */,
-				11F28C1516F14937004EFEB8 /* EWHeaderHighlightLayer.m */,
-				11F28C1616F14937004EFEB8 /* EWMultiColumnTableView.h */,
-				11F28C1716F14937004EFEB8 /* EWMultiColumnTableView.m */,
-				11F28C1816F14937004EFEB8 /* EWMultiColumnTableViewBGScrollView.h */,
-				11F28C1916F14937004EFEB8 /* EWMultiColumnTableViewBGScrollView.m */,
-				11F28C1A16F14937004EFEB8 /* EWMultiColumnTableViewCell.h */,
-				11F28C1B16F14937004EFEB8 /* EWMultiColumnTableViewCell.m */,
-				11F28C1C16F14937004EFEB8 /* EWMultiColumnTableViewContentBackgroundView.h */,
-				11F28C1D16F14937004EFEB8 /* EWMultiColumnTableViewContentBackgroundView.m */,
-				11F28C1E16F14937004EFEB8 /* EWMultiColumnTableViewDefaults.h */,
-				11F28C1F16F14937004EFEB8 /* UIView+AddLine.h */,
-				11F28C2016F14937004EFEB8 /* UIView+AddLine.m */,
-			);
-			path = MultiColumnTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -610,6 +586,7 @@
 				11F28BEB16F11CCB004EFEB8 /* UpAccessoryWhite@2x.png in Resources */,
 				11F28BFA16F14316004EFEB8 /* LotteryDetailViewController.xib in Resources */,
 				11F28C2B16F149D8004EFEB8 /* HistoryLotteyViewController.xib in Resources */,
+				11E87CAE16F2AE10002DDF56 /* line.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,14 +623,9 @@
 				11F28BF016F11F2C004EFEB8 /* GCArraySectionController.m in Sources */,
 				11F28BF516F13CC0004EFEB8 /* LotteryTableViewCell.m in Sources */,
 				11F28BF916F14316004EFEB8 /* LotteryDetailViewController.m in Sources */,
-				11F28C2116F14938004EFEB8 /* EWHeaderHighlightLayer.m in Sources */,
-				11F28C2216F14938004EFEB8 /* EWMultiColumnTableView.m in Sources */,
-				11F28C2316F14938004EFEB8 /* EWMultiColumnTableViewBGScrollView.m in Sources */,
-				11F28C2416F14938004EFEB8 /* EWMultiColumnTableViewCell.m in Sources */,
-				11F28C2516F14938004EFEB8 /* EWMultiColumnTableViewContentBackgroundView.m in Sources */,
-				11F28C2616F14938004EFEB8 /* UIView+AddLine.m in Sources */,
 				11F28C2A16F149D8004EFEB8 /* HistoryLotteyViewController.m in Sources */,
 				11F28C3016F14D3E004EFEB8 /* HistoryLotteryTableViewCell.m in Sources */,
+				11E87CAC16F2A17C002DDF56 /* Award.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
