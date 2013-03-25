@@ -20,7 +20,7 @@ typedef enum _tagLotteryStatus
     NSString        *imgUrl;
     NSString        *name;
     NSString        *phase;         //彩票期数
-    NSString        *time;
+    NSString        *time;          //出票时间
     NSString        *money;
     NSString        *reward;        //奖金
     LotteryStatus   kLotteryStatus;
@@ -36,7 +36,30 @@ typedef enum _tagLotteryStatus
     
     NSString        *currentNumber; //当期开奖号码
     NSMutableArray  *projectArray;  //方案内容
+    
+    /**
+     * 站点管理端属性
+     **/
+    NSString        *playName;      //发起人姓名
+    NSString        *playMethod;    //玩法
+    NSString        *startTime;     //开售时间
+    NSString        *startAwardTime;//开奖时间
+    NSString        *endTime;       //结束时间
+    NSString        *expectPro;     //方案预测
+    
+    NSMutableArray  *awardArray;    //中奖奖项
 }
+
+/**
+ * 站点管理端属性
+ **/
+@property (nonatomic, retain) NSString       *playName;
+@property (nonatomic, retain) NSString       *playMethod;
+@property (nonatomic, retain) NSString       *startTime;
+@property (nonatomic, retain) NSString       *startAwardTime;
+@property (nonatomic, retain) NSString       *endTime;
+@property (nonatomic, retain) NSString       *expectPro;
+@property (nonatomic, retain) NSMutableArray *awardArray;
 
 @property (nonatomic, retain) NSString *imgUrl;
 @property (nonatomic, retain) NSString *name;

@@ -116,13 +116,14 @@
     NSString *idString = @"idString";
     LetteryTableViewCell *cell = [[[LetteryTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault
                                                              reuseIdentifier:idString]autorelease];
-    cell.nameLab.text = [lotteryArray objectAtIndex:indexPath.row];
+    cell.nameLab.text  = [lotteryArray objectAtIndex:indexPath.row];
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UINavigationController *navCtr = [UserMainViewController getNavViewController];
+    UINavigationController *navCtr = [AppDelegate getNavViewController];
     if (isSport)
     {
         switch (indexPath.row)

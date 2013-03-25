@@ -5,7 +5,7 @@
 //  Created by lynn  lynn on 13-3-10.
 //  Copyright (c) 2013年 __MyCompanyName__. All rights reserved.
 //
-
+#import "AppDelegate.h"
 #import "LoginViewController.h"
 #import "UserMainViewController.h"
 #import "StationMainViewController.h"
@@ -134,16 +134,20 @@
 #pragma mark Button Clicked Action
 - (void) doUserLoginBtnClicked:(id)sender
 {
+    UINavigationController *navViewCtr = [AppDelegate getNavViewController];
+    
     UserMainViewController *userMainViewCtr = [[UserMainViewController alloc]init];
-    [self.navigationController pushViewController:userMainViewCtr 
+    [navViewCtr pushViewController:userMainViewCtr 
                                          animated:YES];
     [userMainViewCtr release];
 }
 
 - (void) doStationLoginBtnClicked:(id)sender
 {
+    UINavigationController *navViewCtr = [AppDelegate getNavViewController];
+    
     StationMainViewController *stationMainViewCtr = [[StationMainViewController alloc]init];
-    [self.navigationController pushViewController:stationMainViewCtr 
+    [navViewCtr pushViewController:stationMainViewCtr 
                                          animated:YES];
     [stationMainViewCtr release];
 }

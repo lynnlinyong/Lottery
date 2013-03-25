@@ -31,7 +31,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.title = @"我的彩票";
     
     UILabel *typeLab = [[UILabel alloc]init];
     typeLab.text  = @"类型:";
@@ -264,7 +263,7 @@
 {
     MyLotteryDetailViewController *lotteryDetailViewCtr = [[MyLotteryDetailViewController alloc]initWithStyle:UITableViewStyleGrouped];
     lotteryDetailViewCtr.lottery   = [myLotteryArray objectAtIndex:indexPath.row];
-    UINavigationController *navCtr = [UserMainViewController getNavViewController];
+    UINavigationController *navCtr = [AppDelegate getNavViewController];
     [navCtr pushViewController:lotteryDetailViewCtr 
                       animated:YES];
     [lotteryDetailViewCtr release];

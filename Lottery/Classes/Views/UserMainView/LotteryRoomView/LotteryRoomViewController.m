@@ -6,6 +6,7 @@
 //  Copyright (c) 2013年 __MyCompanyName__. All rights reserved.
 //
 #import "Lottery.h"
+#import "AppDelegate.h"
 #import "LotteryTableViewCell.h"
 #import "LotteryRoomViewController.h"
 #import "LotteryDetailViewController.h"
@@ -146,7 +147,7 @@
 {
     LotteryDetailViewController *lotteryDetailViewCtr = [[LotteryDetailViewController alloc]init];
     lotteryDetailViewCtr.lottery   = [lotteryArray objectAtIndex:indexPath.row];
-    UINavigationController *navCtr = [UserMainViewController getNavViewController];
+    UINavigationController *navCtr = [AppDelegate getNavViewController];
     [navCtr pushViewController:lotteryDetailViewCtr animated:YES];
     [lotteryDetailViewCtr release];
 }

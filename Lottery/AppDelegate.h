@@ -12,4 +12,5 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
++ (UINavigationController *)getNavViewController;
 @end

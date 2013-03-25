@@ -221,7 +221,7 @@
 
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UINavigationController *navCtr = [UserMainViewController getNavViewController];
+    UINavigationController *navCtr = [AppDelegate getNavViewController];
     switch (indexPath.section)
     {
         case 0:         //账户资金
@@ -233,6 +233,7 @@
             if (indexPath.row == 0)  //我的彩票
             {
                 MyLotteryViewController *myLotteryViewCtr = [[MyLotteryViewController alloc]init];
+                myLotteryViewCtr.title = @"我的彩票";
                 [navCtr pushViewController:myLotteryViewCtr
                                   animated:YES];
                 [myLotteryViewCtr release];

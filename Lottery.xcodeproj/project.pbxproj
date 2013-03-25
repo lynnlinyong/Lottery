@@ -67,6 +67,65 @@
 		11F28C3016F14D3E004EFEB8 /* HistoryLotteryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F28C2F16F14D3D004EFEB8 /* HistoryLotteryTableViewCell.m */; };
 		11F95BF716EC1825009485B2 /* LetteryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F95BF516EC1824009485B2 /* LetteryDetailViewController.m */; };
 		11F95BF816EC1825009485B2 /* LetteryDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F95BF616EC1825009485B2 /* LetteryDetailViewController.xib */; };
+		BA9551C616FE9EFF00E5DEE4 /* HistoryBetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9551C416FE9EFF00E5DEE4 /* HistoryBetViewController.m */; };
+		BA9551C716FE9EFF00E5DEE4 /* HistoryBetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9551C516FE9EFF00E5DEE4 /* HistoryBetViewController.xib */; };
+		BA9551CC16FEA23300E5DEE4 /* NewsWallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9551CA16FEA23300E5DEE4 /* NewsWallViewController.m */; };
+		BA9551CD16FEA23300E5DEE4 /* NewsWallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9551CB16FEA23300E5DEE4 /* NewsWallViewController.xib */; };
+		BA9551D116FEA4A700E5DEE4 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9551D016FEA4A700E5DEE4 /* News.m */; };
+		BA9551D516FEABA900E5DEE4 /* AddNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9551D316FEABA900E5DEE4 /* AddNewsViewController.m */; };
+		BA9551D616FEABA900E5DEE4 /* AddNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9551D416FEABA900E5DEE4 /* AddNewsViewController.xib */; };
+		BA9551DA16FEABBA00E5DEE4 /* NewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9551D816FEABBA00E5DEE4 /* NewsDetailViewController.m */; };
+		BA9551DB16FEABBA00E5DEE4 /* NewsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9551D916FEABBA00E5DEE4 /* NewsDetailViewController.xib */; };
+		BA9551DF16FEC9D200E5DEE4 /* StationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9551DD16FEC9D100E5DEE4 /* StationDetailViewController.m */; };
+		BA9551E016FEC9D200E5DEE4 /* StationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9551DE16FEC9D200E5DEE4 /* StationDetailViewController.xib */; };
+		BA9551E416FECA8000E5DEE4 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9551E316FECA8000E5DEE4 /* User.m */; };
+		BA9551E816FED89D00E5DEE4 /* CreateAcountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9551E616FED89C00E5DEE4 /* CreateAcountViewController.m */; };
+		BA9551E916FED89D00E5DEE4 /* CreateAcountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9551E716FED89D00E5DEE4 /* CreateAcountViewController.xib */; };
+		BA9551ED16FEF23B00E5DEE4 /* AccountInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9551EB16FEF23900E5DEE4 /* AccountInfoViewController.m */; };
+		BA9551EE16FEF23B00E5DEE4 /* AccountInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9551EC16FEF23A00E5DEE4 /* AccountInfoViewController.xib */; };
+		BA9551F216FEFFF800E5DEE4 /* RechargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9551F016FEFFF600E5DEE4 /* RechargeViewController.m */; };
+		BA9551F316FEFFF800E5DEE4 /* RechargeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9551F116FEFFF700E5DEE4 /* RechargeViewController.xib */; };
+		BA9551F716FF0E4000E5DEE4 /* NewLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9551F516FF0E4000E5DEE4 /* NewLotteryViewController.m */; };
+		BA9551F816FF0E4000E5DEE4 /* NewLotteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9551F616FF0E4000E5DEE4 /* NewLotteryViewController.xib */; };
+		BAA026C516FF3D2900CD5809 /* cb_box_off.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026AC16FF3D2900CD5809 /* cb_box_off.png */; };
+		BAA026C616FF3D2900CD5809 /* cb_box_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026AD16FF3D2900CD5809 /* cb_box_off@2x.png */; };
+		BAA026C716FF3D2900CD5809 /* cb_box_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026AE16FF3D2900CD5809 /* cb_box_on.png */; };
+		BAA026C816FF3D2900CD5809 /* cb_box_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026AF16FF3D2900CD5809 /* cb_box_on@2x.png */; };
+		BAA026C916FF3D2900CD5809 /* cb_dark_off.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026B016FF3D2900CD5809 /* cb_dark_off.png */; };
+		BAA026CA16FF3D2900CD5809 /* cb_dark_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026B116FF3D2900CD5809 /* cb_dark_off@2x.png */; };
+		BAA026CB16FF3D2900CD5809 /* cb_dark_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026B216FF3D2900CD5809 /* cb_dark_on.png */; };
+		BAA026CC16FF3D2900CD5809 /* cb_dark_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026B316FF3D2900CD5809 /* cb_dark_on@2x.png */; };
+		BAA026CD16FF3D2900CD5809 /* cb_glossy_off.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026B416FF3D2900CD5809 /* cb_glossy_off.png */; };
+		BAA026CE16FF3D2900CD5809 /* cb_glossy_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026B516FF3D2900CD5809 /* cb_glossy_off@2x.png */; };
+		BAA026CF16FF3D2900CD5809 /* cb_glossy_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026B616FF3D2900CD5809 /* cb_glossy_on.png */; };
+		BAA026D016FF3D2900CD5809 /* cb_glossy_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026B716FF3D2900CD5809 /* cb_glossy_on@2x.png */; };
+		BAA026D116FF3D2900CD5809 /* cb_green_off.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026B816FF3D2900CD5809 /* cb_green_off.png */; };
+		BAA026D216FF3D2900CD5809 /* cb_green_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026B916FF3D2900CD5809 /* cb_green_off@2x.png */; };
+		BAA026D316FF3D2900CD5809 /* cb_green_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026BA16FF3D2900CD5809 /* cb_green_on.png */; };
+		BAA026D416FF3D2900CD5809 /* cb_green_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026BB16FF3D2900CD5809 /* cb_green_on@2x.png */; };
+		BAA026D516FF3D2900CD5809 /* cb_mono_off.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026BC16FF3D2900CD5809 /* cb_mono_off.png */; };
+		BAA026D616FF3D2900CD5809 /* cb_mono_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026BD16FF3D2900CD5809 /* cb_mono_off@2x.png */; };
+		BAA026D716FF3D2900CD5809 /* cb_mono_on.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026BE16FF3D2900CD5809 /* cb_mono_on.png */; };
+		BAA026D816FF3D2900CD5809 /* cb_mono_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA026BF16FF3D2900CD5809 /* cb_mono_on@2x.png */; };
+		BAA026D916FF3D2900CD5809 /* UIHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA026C216FF3D2900CD5809 /* UIHelpers.m */; };
+		BAA026DA16FF3D2900CD5809 /* SSCheckBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA026C416FF3D2900CD5809 /* SSCheckBoxView.m */; };
+		BAA026DE16FF538E00CD5809 /* LotterySettingForAwardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA026DC16FF538D00CD5809 /* LotterySettingForAwardViewController.m */; };
+		BAA026DF16FF538E00CD5809 /* LotterySettingForAwardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAA026DD16FF538E00CD5809 /* LotterySettingForAwardViewController.xib */; };
+		BAA026E216FF624C00CD5809 /* RealTimeBetTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA026E116FF624C00CD5809 /* RealTimeBetTableCell.m */; };
+		BAA026E516FF739C00CD5809 /* HistoryBetTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA026E416FF739C00CD5809 /* HistoryBetTableCell.m */; };
+		BAA026E916FF7CB300CD5809 /* HistoryBetDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA026E716FF7CB200CD5809 /* HistoryBetDetailViewController.m */; };
+		BAA026EA16FF7CB300CD5809 /* HistoryBetDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAA026E816FF7CB300CD5809 /* HistoryBetDetailViewController.xib */; };
+		BAA026EE16FF823B00CD5809 /* HistoryBetInfomationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA026EC16FF823900CD5809 /* HistoryBetInfomationViewController.m */; };
+		BAA026EF16FF823B00CD5809 /* HistoryBetInfomationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAA026ED16FF823A00CD5809 /* HistoryBetInfomationViewController.xib */; };
+		BAA026F216FF89F100CD5809 /* HistoryBetInfoTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA026F116FF89F000CD5809 /* HistoryBetInfoTableCell.m */; };
+		BACDFF1016FDE8B6000722B6 /* LotterySettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BACDFF0E16FDE8B6000722B6 /* LotterySettingViewController.m */; };
+		BACDFF1116FDE8B6000722B6 /* LotterySettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACDFF0F16FDE8B6000722B6 /* LotterySettingViewController.xib */; };
+		BACDFF1516FDE941000722B6 /* PlayerCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BACDFF1316FDE941000722B6 /* PlayerCenterViewController.m */; };
+		BACDFF1616FDE941000722B6 /* PlayerCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACDFF1416FDE941000722B6 /* PlayerCenterViewController.xib */; };
+		BACDFF1A16FDE952000722B6 /* RealTimeBetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BACDFF1816FDE952000722B6 /* RealTimeBetViewController.m */; };
+		BACDFF1B16FDE952000722B6 /* RealTimeBetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACDFF1916FDE952000722B6 /* RealTimeBetViewController.xib */; };
+		BACDFF1F16FDE961000722B6 /* StationManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BACDFF1D16FDE961000722B6 /* StationManagerViewController.m */; };
+		BACDFF2016FDE961000722B6 /* StationManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BACDFF1E16FDE961000722B6 /* StationManagerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -162,6 +221,88 @@
 		11F95BF416EC1824009485B2 /* LetteryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetteryDetailViewController.h; sourceTree = "<group>"; };
 		11F95BF516EC1824009485B2 /* LetteryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LetteryDetailViewController.m; sourceTree = "<group>"; };
 		11F95BF616EC1825009485B2 /* LetteryDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LetteryDetailViewController.xib; sourceTree = "<group>"; };
+		BA9551C316FE9EFF00E5DEE4 /* HistoryBetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryBetViewController.h; sourceTree = "<group>"; };
+		BA9551C416FE9EFF00E5DEE4 /* HistoryBetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryBetViewController.m; sourceTree = "<group>"; };
+		BA9551C516FE9EFF00E5DEE4 /* HistoryBetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryBetViewController.xib; sourceTree = "<group>"; };
+		BA9551C916FEA23300E5DEE4 /* NewsWallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsWallViewController.h; sourceTree = "<group>"; };
+		BA9551CA16FEA23300E5DEE4 /* NewsWallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsWallViewController.m; sourceTree = "<group>"; };
+		BA9551CB16FEA23300E5DEE4 /* NewsWallViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsWallViewController.xib; sourceTree = "<group>"; };
+		BA9551CF16FEA4A700E5DEE4 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		BA9551D016FEA4A700E5DEE4 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		BA9551D216FEABA900E5DEE4 /* AddNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewsViewController.h; sourceTree = "<group>"; };
+		BA9551D316FEABA900E5DEE4 /* AddNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewsViewController.m; sourceTree = "<group>"; };
+		BA9551D416FEABA900E5DEE4 /* AddNewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddNewsViewController.xib; sourceTree = "<group>"; };
+		BA9551D716FEABBA00E5DEE4 /* NewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailViewController.h; sourceTree = "<group>"; };
+		BA9551D816FEABBA00E5DEE4 /* NewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailViewController.m; sourceTree = "<group>"; };
+		BA9551D916FEABBA00E5DEE4 /* NewsDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsDetailViewController.xib; sourceTree = "<group>"; };
+		BA9551DC16FEC9D100E5DEE4 /* StationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationDetailViewController.h; sourceTree = "<group>"; };
+		BA9551DD16FEC9D100E5DEE4 /* StationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationDetailViewController.m; sourceTree = "<group>"; };
+		BA9551DE16FEC9D200E5DEE4 /* StationDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StationDetailViewController.xib; sourceTree = "<group>"; };
+		BA9551E216FECA8000E5DEE4 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		BA9551E316FECA8000E5DEE4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		BA9551E516FED89B00E5DEE4 /* CreateAcountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAcountViewController.h; sourceTree = "<group>"; };
+		BA9551E616FED89C00E5DEE4 /* CreateAcountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAcountViewController.m; sourceTree = "<group>"; };
+		BA9551E716FED89D00E5DEE4 /* CreateAcountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateAcountViewController.xib; sourceTree = "<group>"; };
+		BA9551EA16FEF23800E5DEE4 /* AccountInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInfoViewController.h; sourceTree = "<group>"; };
+		BA9551EB16FEF23900E5DEE4 /* AccountInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountInfoViewController.m; sourceTree = "<group>"; };
+		BA9551EC16FEF23A00E5DEE4 /* AccountInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountInfoViewController.xib; sourceTree = "<group>"; };
+		BA9551EF16FEFFF400E5DEE4 /* RechargeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RechargeViewController.h; sourceTree = "<group>"; };
+		BA9551F016FEFFF600E5DEE4 /* RechargeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RechargeViewController.m; sourceTree = "<group>"; };
+		BA9551F116FEFFF700E5DEE4 /* RechargeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RechargeViewController.xib; sourceTree = "<group>"; };
+		BA9551F416FF0E4000E5DEE4 /* NewLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewLotteryViewController.h; sourceTree = "<group>"; };
+		BA9551F516FF0E4000E5DEE4 /* NewLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewLotteryViewController.m; sourceTree = "<group>"; };
+		BA9551F616FF0E4000E5DEE4 /* NewLotteryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewLotteryViewController.xib; sourceTree = "<group>"; };
+		BAA026AC16FF3D2900CD5809 /* cb_box_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_box_off.png; sourceTree = "<group>"; };
+		BAA026AD16FF3D2900CD5809 /* cb_box_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_box_off@2x.png"; sourceTree = "<group>"; };
+		BAA026AE16FF3D2900CD5809 /* cb_box_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_box_on.png; sourceTree = "<group>"; };
+		BAA026AF16FF3D2900CD5809 /* cb_box_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_box_on@2x.png"; sourceTree = "<group>"; };
+		BAA026B016FF3D2900CD5809 /* cb_dark_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_dark_off.png; sourceTree = "<group>"; };
+		BAA026B116FF3D2900CD5809 /* cb_dark_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_dark_off@2x.png"; sourceTree = "<group>"; };
+		BAA026B216FF3D2900CD5809 /* cb_dark_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_dark_on.png; sourceTree = "<group>"; };
+		BAA026B316FF3D2900CD5809 /* cb_dark_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_dark_on@2x.png"; sourceTree = "<group>"; };
+		BAA026B416FF3D2900CD5809 /* cb_glossy_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_glossy_off.png; sourceTree = "<group>"; };
+		BAA026B516FF3D2900CD5809 /* cb_glossy_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_glossy_off@2x.png"; sourceTree = "<group>"; };
+		BAA026B616FF3D2900CD5809 /* cb_glossy_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_glossy_on.png; sourceTree = "<group>"; };
+		BAA026B716FF3D2900CD5809 /* cb_glossy_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_glossy_on@2x.png"; sourceTree = "<group>"; };
+		BAA026B816FF3D2900CD5809 /* cb_green_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_green_off.png; sourceTree = "<group>"; };
+		BAA026B916FF3D2900CD5809 /* cb_green_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_green_off@2x.png"; sourceTree = "<group>"; };
+		BAA026BA16FF3D2900CD5809 /* cb_green_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_green_on.png; sourceTree = "<group>"; };
+		BAA026BB16FF3D2900CD5809 /* cb_green_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_green_on@2x.png"; sourceTree = "<group>"; };
+		BAA026BC16FF3D2900CD5809 /* cb_mono_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_off.png; sourceTree = "<group>"; };
+		BAA026BD16FF3D2900CD5809 /* cb_mono_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_mono_off@2x.png"; sourceTree = "<group>"; };
+		BAA026BE16FF3D2900CD5809 /* cb_mono_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_on.png; sourceTree = "<group>"; };
+		BAA026BF16FF3D2900CD5809 /* cb_mono_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_mono_on@2x.png"; sourceTree = "<group>"; };
+		BAA026C116FF3D2900CD5809 /* UIHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHelpers.h; sourceTree = "<group>"; };
+		BAA026C216FF3D2900CD5809 /* UIHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHelpers.m; sourceTree = "<group>"; };
+		BAA026C316FF3D2900CD5809 /* SSCheckBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCheckBoxView.h; sourceTree = "<group>"; };
+		BAA026C416FF3D2900CD5809 /* SSCheckBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCheckBoxView.m; sourceTree = "<group>"; };
+		BAA026DB16FF538D00CD5809 /* LotterySettingForAwardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotterySettingForAwardViewController.h; sourceTree = "<group>"; };
+		BAA026DC16FF538D00CD5809 /* LotterySettingForAwardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotterySettingForAwardViewController.m; sourceTree = "<group>"; };
+		BAA026DD16FF538E00CD5809 /* LotterySettingForAwardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LotterySettingForAwardViewController.xib; sourceTree = "<group>"; };
+		BAA026E016FF624C00CD5809 /* RealTimeBetTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealTimeBetTableCell.h; sourceTree = "<group>"; };
+		BAA026E116FF624C00CD5809 /* RealTimeBetTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealTimeBetTableCell.m; sourceTree = "<group>"; };
+		BAA026E316FF739B00CD5809 /* HistoryBetTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryBetTableCell.h; sourceTree = "<group>"; };
+		BAA026E416FF739C00CD5809 /* HistoryBetTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryBetTableCell.m; sourceTree = "<group>"; };
+		BAA026E616FF7CB100CD5809 /* HistoryBetDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryBetDetailViewController.h; sourceTree = "<group>"; };
+		BAA026E716FF7CB200CD5809 /* HistoryBetDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryBetDetailViewController.m; sourceTree = "<group>"; };
+		BAA026E816FF7CB300CD5809 /* HistoryBetDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryBetDetailViewController.xib; sourceTree = "<group>"; };
+		BAA026EB16FF823800CD5809 /* HistoryBetInfomationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryBetInfomationViewController.h; sourceTree = "<group>"; };
+		BAA026EC16FF823900CD5809 /* HistoryBetInfomationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryBetInfomationViewController.m; sourceTree = "<group>"; };
+		BAA026ED16FF823A00CD5809 /* HistoryBetInfomationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryBetInfomationViewController.xib; sourceTree = "<group>"; };
+		BAA026F016FF89EF00CD5809 /* HistoryBetInfoTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryBetInfoTableCell.h; sourceTree = "<group>"; };
+		BAA026F116FF89F000CD5809 /* HistoryBetInfoTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryBetInfoTableCell.m; sourceTree = "<group>"; };
+		BACDFF0D16FDE8B6000722B6 /* LotterySettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotterySettingViewController.h; sourceTree = "<group>"; };
+		BACDFF0E16FDE8B6000722B6 /* LotterySettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotterySettingViewController.m; sourceTree = "<group>"; };
+		BACDFF0F16FDE8B6000722B6 /* LotterySettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LotterySettingViewController.xib; sourceTree = "<group>"; };
+		BACDFF1216FDE941000722B6 /* PlayerCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCenterViewController.h; sourceTree = "<group>"; };
+		BACDFF1316FDE941000722B6 /* PlayerCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCenterViewController.m; sourceTree = "<group>"; };
+		BACDFF1416FDE941000722B6 /* PlayerCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerCenterViewController.xib; sourceTree = "<group>"; };
+		BACDFF1716FDE952000722B6 /* RealTimeBetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealTimeBetViewController.h; sourceTree = "<group>"; };
+		BACDFF1816FDE952000722B6 /* RealTimeBetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealTimeBetViewController.m; sourceTree = "<group>"; };
+		BACDFF1916FDE952000722B6 /* RealTimeBetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RealTimeBetViewController.xib; sourceTree = "<group>"; };
+		BACDFF1C16FDE961000722B6 /* StationManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationManagerViewController.h; sourceTree = "<group>"; };
+		BACDFF1D16FDE961000722B6 /* StationManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationManagerViewController.m; sourceTree = "<group>"; };
+		BACDFF1E16FDE961000722B6 /* StationManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StationManagerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +374,11 @@
 				1117D11416EBDB2D00F16627 /* StationMainViewController.h */,
 				1117D11516EBDB2D00F16627 /* StationMainViewController.m */,
 				1117D11616EBDB2D00F16627 /* StationMainViewController.xib */,
+				BACDFF0916FDE83E000722B6 /* LotterySettingView */,
+				BA9551C816FEA22100E5DEE4 /* NewsWallView */,
+				BACDFF0A16FDE83E000722B6 /* PlayerCenterView */,
+				BACDFF0B16FDE83E000722B6 /* RealTimeBetView */,
+				BACDFF0C16FDE83E000722B6 /* StationManagerView */,
 			);
 			path = StationMainView;
 			sourceTree = "<group>";
@@ -452,6 +598,9 @@
 		11EDD4D216ED550C0008B703 /* ShareDate */ = {
 			isa = PBXGroup;
 			children = (
+				BAA026AA16FF3D2900CD5809 /* SSCheckBoxView */,
+				BA9551E116FECA7000E5DEE4 /* User */,
+				BA9551CE16FEA49300E5DEE4 /* News */,
 				11E87CA816F2A169002DDF56 /* Award */,
 				110ECC3316EE93CB0084A0E9 /* BookBalance */,
 				11EDD4D416ED552E0008B703 /* Lottery */,
@@ -508,6 +657,161 @@
 				11F28BF216F139FE004EFEB8 /* CLog.h */,
 			);
 			path = Debug;
+			sourceTree = "<group>";
+		};
+		BA9551C816FEA22100E5DEE4 /* NewsWallView */ = {
+			isa = PBXGroup;
+			children = (
+				BA9551C916FEA23300E5DEE4 /* NewsWallViewController.h */,
+				BA9551CA16FEA23300E5DEE4 /* NewsWallViewController.m */,
+				BA9551CB16FEA23300E5DEE4 /* NewsWallViewController.xib */,
+				BA9551D216FEABA900E5DEE4 /* AddNewsViewController.h */,
+				BA9551D316FEABA900E5DEE4 /* AddNewsViewController.m */,
+				BA9551D416FEABA900E5DEE4 /* AddNewsViewController.xib */,
+				BA9551D716FEABBA00E5DEE4 /* NewsDetailViewController.h */,
+				BA9551D816FEABBA00E5DEE4 /* NewsDetailViewController.m */,
+				BA9551D916FEABBA00E5DEE4 /* NewsDetailViewController.xib */,
+			);
+			path = NewsWallView;
+			sourceTree = "<group>";
+		};
+		BA9551CE16FEA49300E5DEE4 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				BA9551CF16FEA4A700E5DEE4 /* News.h */,
+				BA9551D016FEA4A700E5DEE4 /* News.m */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		BA9551E116FECA7000E5DEE4 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				BA9551E216FECA8000E5DEE4 /* User.h */,
+				BA9551E316FECA8000E5DEE4 /* User.m */,
+			);
+			name = User;
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		BAA026AA16FF3D2900CD5809 /* SSCheckBoxView */ = {
+			isa = PBXGroup;
+			children = (
+				BAA026AB16FF3D2900CD5809 /* Graphics */,
+				BAA026C016FF3D2900CD5809 /* Helpers */,
+				BAA026C316FF3D2900CD5809 /* SSCheckBoxView.h */,
+				BAA026C416FF3D2900CD5809 /* SSCheckBoxView.m */,
+			);
+			path = SSCheckBoxView;
+			sourceTree = "<group>";
+		};
+		BAA026AB16FF3D2900CD5809 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				BAA026AC16FF3D2900CD5809 /* cb_box_off.png */,
+				BAA026AD16FF3D2900CD5809 /* cb_box_off@2x.png */,
+				BAA026AE16FF3D2900CD5809 /* cb_box_on.png */,
+				BAA026AF16FF3D2900CD5809 /* cb_box_on@2x.png */,
+				BAA026B016FF3D2900CD5809 /* cb_dark_off.png */,
+				BAA026B116FF3D2900CD5809 /* cb_dark_off@2x.png */,
+				BAA026B216FF3D2900CD5809 /* cb_dark_on.png */,
+				BAA026B316FF3D2900CD5809 /* cb_dark_on@2x.png */,
+				BAA026B416FF3D2900CD5809 /* cb_glossy_off.png */,
+				BAA026B516FF3D2900CD5809 /* cb_glossy_off@2x.png */,
+				BAA026B616FF3D2900CD5809 /* cb_glossy_on.png */,
+				BAA026B716FF3D2900CD5809 /* cb_glossy_on@2x.png */,
+				BAA026B816FF3D2900CD5809 /* cb_green_off.png */,
+				BAA026B916FF3D2900CD5809 /* cb_green_off@2x.png */,
+				BAA026BA16FF3D2900CD5809 /* cb_green_on.png */,
+				BAA026BB16FF3D2900CD5809 /* cb_green_on@2x.png */,
+				BAA026BC16FF3D2900CD5809 /* cb_mono_off.png */,
+				BAA026BD16FF3D2900CD5809 /* cb_mono_off@2x.png */,
+				BAA026BE16FF3D2900CD5809 /* cb_mono_on.png */,
+				BAA026BF16FF3D2900CD5809 /* cb_mono_on@2x.png */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		BAA026C016FF3D2900CD5809 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BAA026C116FF3D2900CD5809 /* UIHelpers.h */,
+				BAA026C216FF3D2900CD5809 /* UIHelpers.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BACDFF0916FDE83E000722B6 /* LotterySettingView */ = {
+			isa = PBXGroup;
+			children = (
+				BACDFF0D16FDE8B6000722B6 /* LotterySettingViewController.h */,
+				BACDFF0E16FDE8B6000722B6 /* LotterySettingViewController.m */,
+				BACDFF0F16FDE8B6000722B6 /* LotterySettingViewController.xib */,
+				BA9551F416FF0E4000E5DEE4 /* NewLotteryViewController.h */,
+				BA9551F516FF0E4000E5DEE4 /* NewLotteryViewController.m */,
+				BA9551F616FF0E4000E5DEE4 /* NewLotteryViewController.xib */,
+				BAA026DB16FF538D00CD5809 /* LotterySettingForAwardViewController.h */,
+				BAA026DC16FF538D00CD5809 /* LotterySettingForAwardViewController.m */,
+				BAA026DD16FF538E00CD5809 /* LotterySettingForAwardViewController.xib */,
+			);
+			path = LotterySettingView;
+			sourceTree = "<group>";
+		};
+		BACDFF0A16FDE83E000722B6 /* PlayerCenterView */ = {
+			isa = PBXGroup;
+			children = (
+				BACDFF1216FDE941000722B6 /* PlayerCenterViewController.h */,
+				BACDFF1316FDE941000722B6 /* PlayerCenterViewController.m */,
+				BACDFF1416FDE941000722B6 /* PlayerCenterViewController.xib */,
+				BA9551E516FED89B00E5DEE4 /* CreateAcountViewController.h */,
+				BA9551E616FED89C00E5DEE4 /* CreateAcountViewController.m */,
+				BA9551E716FED89D00E5DEE4 /* CreateAcountViewController.xib */,
+				BA9551EA16FEF23800E5DEE4 /* AccountInfoViewController.h */,
+				BA9551EB16FEF23900E5DEE4 /* AccountInfoViewController.m */,
+				BA9551EC16FEF23A00E5DEE4 /* AccountInfoViewController.xib */,
+				BA9551EF16FEFFF400E5DEE4 /* RechargeViewController.h */,
+				BA9551F016FEFFF600E5DEE4 /* RechargeViewController.m */,
+				BA9551F116FEFFF700E5DEE4 /* RechargeViewController.xib */,
+			);
+			path = PlayerCenterView;
+			sourceTree = "<group>";
+		};
+		BACDFF0B16FDE83E000722B6 /* RealTimeBetView */ = {
+			isa = PBXGroup;
+			children = (
+				BAA026E616FF7CB100CD5809 /* HistoryBetDetailViewController.h */,
+				BAA026E716FF7CB200CD5809 /* HistoryBetDetailViewController.m */,
+				BAA026E816FF7CB300CD5809 /* HistoryBetDetailViewController.xib */,
+				BAA026EB16FF823800CD5809 /* HistoryBetInfomationViewController.h */,
+				BAA026EC16FF823900CD5809 /* HistoryBetInfomationViewController.m */,
+				BAA026ED16FF823A00CD5809 /* HistoryBetInfomationViewController.xib */,
+				BAA026F016FF89EF00CD5809 /* HistoryBetInfoTableCell.h */,
+				BAA026F116FF89F000CD5809 /* HistoryBetInfoTableCell.m */,
+				BAA026E316FF739B00CD5809 /* HistoryBetTableCell.h */,
+				BAA026E416FF739C00CD5809 /* HistoryBetTableCell.m */,
+				BA9551C316FE9EFF00E5DEE4 /* HistoryBetViewController.h */,
+				BA9551C416FE9EFF00E5DEE4 /* HistoryBetViewController.m */,
+				BA9551C516FE9EFF00E5DEE4 /* HistoryBetViewController.xib */,
+				BAA026E016FF624C00CD5809 /* RealTimeBetTableCell.h */,
+				BAA026E116FF624C00CD5809 /* RealTimeBetTableCell.m */,
+				BACDFF1716FDE952000722B6 /* RealTimeBetViewController.h */,
+				BACDFF1816FDE952000722B6 /* RealTimeBetViewController.m */,
+				BACDFF1916FDE952000722B6 /* RealTimeBetViewController.xib */,
+			);
+			path = RealTimeBetView;
+			sourceTree = "<group>";
+		};
+		BACDFF0C16FDE83E000722B6 /* StationManagerView */ = {
+			isa = PBXGroup;
+			children = (
+				BACDFF1C16FDE961000722B6 /* StationManagerViewController.h */,
+				BACDFF1D16FDE961000722B6 /* StationManagerViewController.m */,
+				BACDFF1E16FDE961000722B6 /* StationManagerViewController.xib */,
+				BA9551DC16FEC9D100E5DEE4 /* StationDetailViewController.h */,
+				BA9551DD16FEC9D100E5DEE4 /* StationDetailViewController.m */,
+				BA9551DE16FEC9D200E5DEE4 /* StationDetailViewController.xib */,
+			);
+			path = StationManagerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -587,6 +891,42 @@
 				11F28BFA16F14316004EFEB8 /* LotteryDetailViewController.xib in Resources */,
 				11F28C2B16F149D8004EFEB8 /* HistoryLotteyViewController.xib in Resources */,
 				11E87CAE16F2AE10002DDF56 /* line.png in Resources */,
+				BACDFF1116FDE8B6000722B6 /* LotterySettingViewController.xib in Resources */,
+				BACDFF1616FDE941000722B6 /* PlayerCenterViewController.xib in Resources */,
+				BACDFF1B16FDE952000722B6 /* RealTimeBetViewController.xib in Resources */,
+				BACDFF2016FDE961000722B6 /* StationManagerViewController.xib in Resources */,
+				BA9551C716FE9EFF00E5DEE4 /* HistoryBetViewController.xib in Resources */,
+				BA9551CD16FEA23300E5DEE4 /* NewsWallViewController.xib in Resources */,
+				BA9551D616FEABA900E5DEE4 /* AddNewsViewController.xib in Resources */,
+				BA9551DB16FEABBA00E5DEE4 /* NewsDetailViewController.xib in Resources */,
+				BA9551E016FEC9D200E5DEE4 /* StationDetailViewController.xib in Resources */,
+				BA9551E916FED89D00E5DEE4 /* CreateAcountViewController.xib in Resources */,
+				BA9551EE16FEF23B00E5DEE4 /* AccountInfoViewController.xib in Resources */,
+				BA9551F316FEFFF800E5DEE4 /* RechargeViewController.xib in Resources */,
+				BA9551F816FF0E4000E5DEE4 /* NewLotteryViewController.xib in Resources */,
+				BAA026C516FF3D2900CD5809 /* cb_box_off.png in Resources */,
+				BAA026C616FF3D2900CD5809 /* cb_box_off@2x.png in Resources */,
+				BAA026C716FF3D2900CD5809 /* cb_box_on.png in Resources */,
+				BAA026C816FF3D2900CD5809 /* cb_box_on@2x.png in Resources */,
+				BAA026C916FF3D2900CD5809 /* cb_dark_off.png in Resources */,
+				BAA026CA16FF3D2900CD5809 /* cb_dark_off@2x.png in Resources */,
+				BAA026CB16FF3D2900CD5809 /* cb_dark_on.png in Resources */,
+				BAA026CC16FF3D2900CD5809 /* cb_dark_on@2x.png in Resources */,
+				BAA026CD16FF3D2900CD5809 /* cb_glossy_off.png in Resources */,
+				BAA026CE16FF3D2900CD5809 /* cb_glossy_off@2x.png in Resources */,
+				BAA026CF16FF3D2900CD5809 /* cb_glossy_on.png in Resources */,
+				BAA026D016FF3D2900CD5809 /* cb_glossy_on@2x.png in Resources */,
+				BAA026D116FF3D2900CD5809 /* cb_green_off.png in Resources */,
+				BAA026D216FF3D2900CD5809 /* cb_green_off@2x.png in Resources */,
+				BAA026D316FF3D2900CD5809 /* cb_green_on.png in Resources */,
+				BAA026D416FF3D2900CD5809 /* cb_green_on@2x.png in Resources */,
+				BAA026D516FF3D2900CD5809 /* cb_mono_off.png in Resources */,
+				BAA026D616FF3D2900CD5809 /* cb_mono_off@2x.png in Resources */,
+				BAA026D716FF3D2900CD5809 /* cb_mono_on.png in Resources */,
+				BAA026D816FF3D2900CD5809 /* cb_mono_on@2x.png in Resources */,
+				BAA026DF16FF538E00CD5809 /* LotterySettingForAwardViewController.xib in Resources */,
+				BAA026EA16FF7CB300CD5809 /* HistoryBetDetailViewController.xib in Resources */,
+				BAA026EF16FF823B00CD5809 /* HistoryBetInfomationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,6 +966,29 @@
 				11F28C2A16F149D8004EFEB8 /* HistoryLotteyViewController.m in Sources */,
 				11F28C3016F14D3E004EFEB8 /* HistoryLotteryTableViewCell.m in Sources */,
 				11E87CAC16F2A17C002DDF56 /* Award.m in Sources */,
+				BACDFF1016FDE8B6000722B6 /* LotterySettingViewController.m in Sources */,
+				BACDFF1516FDE941000722B6 /* PlayerCenterViewController.m in Sources */,
+				BACDFF1A16FDE952000722B6 /* RealTimeBetViewController.m in Sources */,
+				BACDFF1F16FDE961000722B6 /* StationManagerViewController.m in Sources */,
+				BA9551C616FE9EFF00E5DEE4 /* HistoryBetViewController.m in Sources */,
+				BA9551CC16FEA23300E5DEE4 /* NewsWallViewController.m in Sources */,
+				BA9551D116FEA4A700E5DEE4 /* News.m in Sources */,
+				BA9551D516FEABA900E5DEE4 /* AddNewsViewController.m in Sources */,
+				BA9551DA16FEABBA00E5DEE4 /* NewsDetailViewController.m in Sources */,
+				BA9551DF16FEC9D200E5DEE4 /* StationDetailViewController.m in Sources */,
+				BA9551E416FECA8000E5DEE4 /* User.m in Sources */,
+				BA9551E816FED89D00E5DEE4 /* CreateAcountViewController.m in Sources */,
+				BA9551ED16FEF23B00E5DEE4 /* AccountInfoViewController.m in Sources */,
+				BA9551F216FEFFF800E5DEE4 /* RechargeViewController.m in Sources */,
+				BA9551F716FF0E4000E5DEE4 /* NewLotteryViewController.m in Sources */,
+				BAA026D916FF3D2900CD5809 /* UIHelpers.m in Sources */,
+				BAA026DA16FF3D2900CD5809 /* SSCheckBoxView.m in Sources */,
+				BAA026DE16FF538E00CD5809 /* LotterySettingForAwardViewController.m in Sources */,
+				BAA026E216FF624C00CD5809 /* RealTimeBetTableCell.m in Sources */,
+				BAA026E516FF739C00CD5809 /* HistoryBetTableCell.m in Sources */,
+				BAA026E916FF7CB300CD5809 /* HistoryBetDetailViewController.m in Sources */,
+				BAA026EE16FF823B00CD5809 /* HistoryBetInfomationViewController.m in Sources */,
+				BAA026F216FF89F100CD5809 /* HistoryBetInfoTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,7 +1011,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: yong lin (5Z3A4Q4935)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yong lin (5Z3A4Q4935)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -663,6 +1027,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "BCDA2A8F-2CD8-4D9A-8461-93D25EF9C0BB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BCDA2A8F-2CD8-4D9A-8461-93D25EF9C0BB";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -672,7 +1038,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: yong lin (5Z3A4Q4935)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yong lin (5Z3A4Q4935)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -681,6 +1048,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "BCDA2A8F-2CD8-4D9A-8461-93D25EF9C0BB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BCDA2A8F-2CD8-4D9A-8461-93D25EF9C0BB";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

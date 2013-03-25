@@ -6,6 +6,7 @@
 //  Copyright (c) 2013年 __MyCompanyName__. All rights reserved.
 //
 #import "Award.h"
+#import "AppDelegate.h"
 #import "LotteryDetailViewController.h"
 #import "HistoryLotteyViewController.h"
 
@@ -271,7 +272,7 @@
 #pragma mark UIButton Clicked Action
 - (void) doHistoryLotteryBtnClicked:(id)sender
 {
-    UINavigationController *navCtr = [UserMainViewController getNavViewController];
+    UINavigationController *navCtr = [AppDelegate getNavViewController];
     HistoryLotteyViewController *hLViewCtr = [[HistoryLotteyViewController alloc]init];
     [navCtr pushViewController:hLViewCtr animated:YES];
     [hLViewCtr release];

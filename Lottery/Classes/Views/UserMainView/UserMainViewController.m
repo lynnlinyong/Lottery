@@ -99,7 +99,7 @@
             self.title = @"用户中心";
             break;
         }
-        case 3:
+        case 3:        //专家预测
         {
             self.title = @"专家预测";
             break;
@@ -107,12 +107,6 @@
         default:
             break;
     }
-    
 }
 
-+ (UINavigationController *)getNavViewController
-{
-    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-    return (UINavigationController *)appDelegate.window.rootViewController;
-}
 @end

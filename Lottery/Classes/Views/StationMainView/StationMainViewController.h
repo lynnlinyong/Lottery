@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface StationMainViewController : UIViewController
-
+@interface StationMainViewController : UIViewController <UITabBarControllerDelegate>
+{
+    UITabBarController      *actionTabBarCtr;
+}
 @end

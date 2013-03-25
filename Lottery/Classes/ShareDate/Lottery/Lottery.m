@@ -26,6 +26,15 @@
 @synthesize phaseTotal;
 @synthesize currentNumber;
 @synthesize projectArray;
+
+@synthesize playName;
+@synthesize playMethod;
+@synthesize startTime;
+@synthesize startAwardTime;
+@synthesize endTime;
+@synthesize expectPro;
+@synthesize awardArray;
+
 - (id)init
 {
     self = [super init];
@@ -49,6 +58,14 @@
         phaseTotal      = [[NSString alloc]init];
         currentNumber   = [[NSString alloc]init];
         projectArray    = [[NSMutableArray alloc]init];
+        
+        playName        = [[NSString alloc]init];
+        playMethod      = [[NSString alloc]init];
+        startTime       = [[NSString alloc]init];
+        startAwardTime  = [[NSString alloc]init];
+        endTime         = [[NSString alloc]init];
+        expectPro       = [[NSString alloc]init];
+        awardArray      = [[NSMutableArray alloc]init];
     }
     
     return self;
@@ -60,9 +77,17 @@
     [name   release];
     [phase  release];
     [time   release];
-    [money release];
+    [money  release];
     [reward release];
     
+    [playMethod     release];
+    [startTime      release];
+    [startAwardTime release];
+    [endTime        release];
+    [expectPro      release];
+    [awardArray     release];
+    
+    [playName       release];
     [pepoleID       release];
     [betAmounts     release];
     [times          release];
@@ -99,6 +124,14 @@
         lotteryObj.phaseTotal    = [phaseTotal      copy];
         lotteryObj.currentNumber = [currentNumber   copy];
         lotteryObj.projectArray  = [projectArray mutableCopy];
+        
+        lotteryObj.playName        = [playName       copy];
+        lotteryObj.playMethod      = [playMethod     copy];
+        lotteryObj.startTime       = [startTime      copy];
+        lotteryObj.startAwardTime  = [startAwardTime copy];
+        lotteryObj.endTime         = [endTime        copy];
+        lotteryObj.expectPro       = [expectPro      copy];
+        lotteryObj.awardArray      = [awardArray     copy];
     }
     
     return lotteryObj;
@@ -126,6 +159,14 @@
         lotteryObj.phaseTotal    = [phaseTotal      copy];
         lotteryObj.currentNumber = [currentNumber   copy];
         lotteryObj.projectArray  = [projectArray    mutableCopy];
+        
+        lotteryObj.playName        = [playName       copy];
+        lotteryObj.playMethod      = [playMethod     copy];
+        lotteryObj.startTime       = [startTime      copy];
+        lotteryObj.startAwardTime  = [startAwardTime copy];
+        lotteryObj.endTime         = [endTime        copy];
+        lotteryObj.expectPro       = [expectPro      copy];
+        lotteryObj.awardArray      = [awardArray   mutableCopy];
     }
     
     return lotteryObj;
